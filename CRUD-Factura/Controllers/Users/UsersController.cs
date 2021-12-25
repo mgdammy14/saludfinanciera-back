@@ -24,7 +24,7 @@ namespace CRUD_Factura.Controllers.Users
         }
 
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public IActionResult GetList()
         {
             try
@@ -38,7 +38,7 @@ namespace CRUD_Factura.Controllers.Users
         }
 
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public IActionResult Insert([FromBody] UsersRequestDTO dto)
         {
             try
@@ -52,7 +52,7 @@ namespace CRUD_Factura.Controllers.Users
         }
 
         [HttpPut]
-        [Authorize]
+        //[Authorize]
         public IActionResult Update([FromBody] UsersRequestDTO dto)
         {
             try

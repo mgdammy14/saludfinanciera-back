@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "ApiCOre/1.0.0": {
+      "ApiCore/1.0.0": {
         "dependencies": {
           "ApiBusinessModel": "1.0.0",
           "ApiDataAccess": "1.0.0",
@@ -319,10 +319,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "ApiCOre.dll": {}
+          "ApiCore.dll": {}
         },
         "compile": {
-          "ApiCOre.dll": {}
+          "ApiCore.dll": {}
         }
       },
       "Dapper/2.0.123": {
@@ -2425,7 +2425,7 @@
     }
   },
   "libraries": {
-    "ApiCOre/1.0.0": {
+    "ApiCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

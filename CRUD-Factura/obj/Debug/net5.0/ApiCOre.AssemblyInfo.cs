@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ApiCOre")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ApiCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ApiCOre")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ApiCOre")]
+[assembly: System.Reflection.AssemblyProductAttribute("ApiCore")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ApiCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

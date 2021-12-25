@@ -1,9 +1,9 @@
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/appsettings.Development.json
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/appsettings.json
-/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCOre.dll
-/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCOre.deps.json
-/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCOre.runtimeconfig.json
-/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCOre.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCore.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCore.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCore.runtimeconfig.json
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/ApiCore.pdb
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/Dapper.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/Dapper.Contrib.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/Microsoft.AspNetCore.Authentication.JwtBearer.dll
