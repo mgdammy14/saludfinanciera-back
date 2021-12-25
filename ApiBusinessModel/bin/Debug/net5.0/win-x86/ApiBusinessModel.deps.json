@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x86",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x86": {
+      "ApiBusinessModel/1.0.0": {
+        "dependencies": {
+          "ApiUnitOfWork": "1.0.0"
+        },
+        "runtime": {
+          "ApiBusinessModel.dll": {}
+        }
+      },
+      "ApiModel/1.0.0": {
+        "runtime": {
+          "ApiModel.dll": {}
+        }
+      },
+      "ApiRepositories/1.0.0": {
+        "dependencies": {
+          "ApiModel": "1.0.0"
+        },
+        "runtime": {
+          "ApiRepositories.dll": {}
+        }
+      },
+      "ApiUnitOfWork/1.0.0": {
+        "dependencies": {
+          "ApiRepositories": "1.0.0"
+        },
+        "runtime": {
+          "ApiUnitOfWork.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiBusinessModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiUnitOfWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,188 @@
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.Development.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.exe
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.deps.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.dev.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ref/CRUD-Factura.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.Contrib.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Microsoft.OpenApi.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/System.Data.SqlClient.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.AssemblyReference.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.GeneratedMSBuildEditorConfig.editorconfig
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfoInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfo.cs
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CoreCompileInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cs
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.Manifest.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/scopedcss/bundle/CRUD-Factura.styles.css
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.RazorTargetAssemblyInfo.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CopyComplete
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/ref/CRUD-Factura.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.genruntimeconfig.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.Development.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.deps.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.dev.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.Contrib.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.Manifest.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.xml
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/scopedcss/bundle/CRUD-Factura.styles.css
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.RazorTargetAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.genruntimeconfig.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.Development.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/appsettings.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.deps.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.dev.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Dapper.Contrib.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.Manifest.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.xml
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/scopedcss/bundle/CRUD-Factura.styles.css
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.RazorTargetAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.genruntimeconfig.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/appsettings.Development.json
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/appsettings.json
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.deps.json
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.json
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.runtimeconfig.dev.json
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Dapper.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Dapper.Contrib.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiBusinessModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiDataAccess.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cs
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.MvcApplicationPartsAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.Manifest.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/staticwebassets/CRUD-Factura.StaticWebAssets.xml
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/scopedcss/bundle/CRUD-Factura.styles.css
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.RazorTargetAssemblyInfo.cache
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/ref/CRUD-Factura.dll
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.pdb
+/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/Debug/net5.0/CRUD-Factura.genruntimeconfig.cache

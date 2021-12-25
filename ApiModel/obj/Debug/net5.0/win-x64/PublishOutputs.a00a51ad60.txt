@@ -1,0 +1,3 @@
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiModel.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiModel.pdb

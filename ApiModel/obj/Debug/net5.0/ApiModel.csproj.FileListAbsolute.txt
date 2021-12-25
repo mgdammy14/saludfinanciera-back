@@ -1,0 +1,58 @@
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.deps.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/bin/Debug/net5.0/ref/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.AssemblyReference.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfoInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfo.cs
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.CoreCompileInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/bin/Debug/net5.0/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/bin/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.pdb

@@ -1,0 +1,12 @@
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/win-x64/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/win-x64/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/win-x64/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/bin/Debug/net5.0/win-x64/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ref/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/win-x64/ApiModel.pdb

@@ -1,0 +1,75 @@
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.deps.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ref/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.AssemblyReference.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfoInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfo.cs
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CoreCompileInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CopyComplete
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ref/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.deps.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.deps.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.deps.json
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ApiRepositories.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/ApiRepositories.pdb

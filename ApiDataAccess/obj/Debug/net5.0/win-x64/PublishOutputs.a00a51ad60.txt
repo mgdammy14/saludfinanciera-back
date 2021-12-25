@@ -1,0 +1,13 @@
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiDataAccess.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiDataAccess.deps.json
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiDataAccess.pdb
+/Users/gonzalopingo/Desktop/publicarproyecto/Dapper.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/Dapper.Contrib.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/System.Data.SqlClient.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/sni.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiModel.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/publicarproyecto/ApiModel.pdb

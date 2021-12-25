@@ -1,0 +1,14 @@
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ApiRepositories.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/bin/Debug/net5.0/win-x86/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ref/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/obj/Debug/net5.0/win-x86/ApiRepositories.pdb

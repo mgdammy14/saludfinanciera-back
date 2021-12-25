@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiUnitOfWork\ApiUnitOfWork.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\Users\" />
+    <None Remove="Implementation\Users\" />
+    <None Remove="Interfaces\General\" />
+    <None Remove="Implementation\General\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\Users\" />
+    <Folder Include="Implementation\Users\" />
+    <Folder Include="Interfaces\General\" />
+    <Folder Include="Implementation\General\" />
+  </ItemGroup>
+</Project>

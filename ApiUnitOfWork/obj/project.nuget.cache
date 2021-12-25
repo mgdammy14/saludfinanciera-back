@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KJOTH0FlIIPKn89miNqYhZFKsX5A4SzCFiLTyJJT9Y52VP9HxZOSKCba3n1J4yh2RT2OnjoXE4eHLPxrNkp/gA==",
+  "success": true,
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/ApiUnitOfWork.csproj",
+  "expectedPackageFiles": [
+    "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

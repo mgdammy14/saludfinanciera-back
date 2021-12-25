@@ -1,0 +1,3 @@
+/Users/gonzalopingo/Desktop/publish/ApiModel.dll
+/Users/gonzalopingo/Desktop/publish/ApiModel.deps.json
+/Users/gonzalopingo/Desktop/publish/ApiModel.pdb

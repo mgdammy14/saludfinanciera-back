@@ -1,0 +1,85 @@
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.deps.json
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ref/ApiUnitOfWork.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.pdb
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.AssemblyReference.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfoInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfo.cs
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CoreCompileInputs.cache
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CopyComplete
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ref/ApiUnitOfWork.dll
+D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.deps.json
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUD Factura/net-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.deps.json
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/CRUDFactura/back-crud-factura/CRUD-Factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.deps.json
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.deps.json
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/bin/Debug/net5.0/ApiModel.pdb
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.AssemblyReference.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfoInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.AssemblyInfo.cs
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CoreCompileInputs.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.csproj.CopyComplete
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ref/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/obj/Debug/net5.0/ApiUnitOfWork.pdb

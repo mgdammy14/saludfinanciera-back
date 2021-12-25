@@ -1,0 +1,7 @@
+/Users/gonzalopingo/Desktop/publish/ApiUnitOfWork.dll
+/Users/gonzalopingo/Desktop/publish/ApiUnitOfWork.deps.json
+/Users/gonzalopingo/Desktop/publish/ApiUnitOfWork.pdb
+/Users/gonzalopingo/Desktop/publish/ApiModel.dll
+/Users/gonzalopingo/Desktop/publish/ApiRepositories.dll
+/Users/gonzalopingo/Desktop/publish/ApiRepositories.pdb
+/Users/gonzalopingo/Desktop/publish/ApiModel.pdb

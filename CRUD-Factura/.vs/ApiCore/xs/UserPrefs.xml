@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{ACE73042-3FBC-4575-BA04-EF38D7388A0C}|Default">
+  <MonoDevelop.Ide.ItemProperties.ApiCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ApiCore" expanded="True">
+            <Node name="ApiCore" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="RequestDTO\" />
+    <None Remove="ResponseDTO\" />
+    <None Remove="RequestDTO\Profile\" />
+    <None Remove="Users\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RequestDTO\" />
+    <Folder Include="ResponseDTO\" />
+    <Folder Include="RequestDTO\Profile\" />
+    <Folder Include="Users\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+  </ItemGroup>
+</Project>

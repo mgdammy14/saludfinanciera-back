@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ntDgBHCPrrxpZZijwdYhUJ/vneWN+tb2rFSuH0ICLuonJvrGfFCsZMqc8h+4/L1h6c3WF0nNHtXR/JiEbQStOw==",
+  "success": true,
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiBusinessModel/ApiBusinessModel.csproj",
+  "expectedPackageFiles": [
+    "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}

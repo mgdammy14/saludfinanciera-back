@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/CRUD-Factura.csproj": {}
+  },
+  "projects": {
+    "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/ApiBusinessModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/ApiBusinessModel.csproj",
+        "projectName": "ApiBusinessModel",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/ApiBusinessModel.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/ApiDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/ApiDataAccess.csproj",
+        "projectName": "ApiDataAccess",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/ApiDataAccess.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj"
+              },
+              "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gonzalopingo/Desktop/back-factura/ApiModel/ApiModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/ApiModel/ApiModel.csproj",
+        "projectName": "ApiModel",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiModel/ApiModel.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/ApiModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj",
+        "projectName": "ApiRepositories",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gonzalopingo/Desktop/back-factura/ApiModel/ApiModel.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiModel/ApiModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj",
+        "projectName": "ApiUnitOfWork",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/ApiUnitOfWork.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/ApiUnitOfWork/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiRepositories/ApiRepositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/CRUD-Factura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/CRUD-Factura.csproj",
+        "projectName": "CRUD-Factura",
+        "projectPath": "/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/CRUD-Factura.csproj",
+        "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
+        "outputPath": "/Users/gonzalopingo/Desktop/back-factura/CRUD-Factura/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/ApiBusinessModel.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiBusinessModel/ApiBusinessModel.csproj"
+              },
+              "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/ApiDataAccess.csproj": {
+                "projectPath": "/Users/gonzalopingo/Desktop/back-factura/ApiDataAccess/ApiDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

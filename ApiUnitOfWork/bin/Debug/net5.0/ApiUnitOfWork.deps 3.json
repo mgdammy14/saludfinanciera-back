@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ApiUnitOfWork/1.0.0": {
+        "dependencies": {
+          "ApiRepositories": "1.0.0"
+        },
+        "runtime": {
+          "ApiUnitOfWork.dll": {}
+        }
+      },
+      "ApiModel/1.0.0": {
+        "runtime": {
+          "ApiModel.dll": {}
+        }
+      },
+      "ApiRepositories/1.0.0": {
+        "dependencies": {
+          "ApiModel": "1.0.0"
+        },
+        "runtime": {
+          "ApiRepositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiUnitOfWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ApiRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
