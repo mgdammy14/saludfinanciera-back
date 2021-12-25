@@ -56,7 +56,7 @@ namespace CRUD_Factura
             services.AddScoped<IUsersLogic, UsersLogic>();
             services.AddScoped<IEncryptLogic, EncryptLogic>();
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
-                    Configuration.GetConnectionString("production")
+                    Configuration.GetConnectionString("develop")
                 ));
 
             services.AddAuthorization(auth => {
