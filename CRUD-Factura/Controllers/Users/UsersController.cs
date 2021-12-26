@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using ApiBusinessModel.Interfaces.Users;
 using ApiModel.RequestDTO;
+using ApiModel.ResponseDTO.General;
 using ApiUnitOfWork.General;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,9 +14,9 @@ using Microsoft.IdentityModel.Tokens;
 namespace CRUD_Factura.Controllers.Users
 {
     [Route("api/users")]
-
     public class UsersController : Controller
     {
+        private ResponseDTO _responseDTO = null;
         private IUsersLogic _logic;
 
         public UsersController(IUsersLogic logic)
@@ -24,58 +25,70 @@ namespace CRUD_Factura.Controllers.Users
         }
 
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         public IActionResult GetList()
         {
+            _responseDTO = new ResponseDTO();
             try
             {
-                return Ok(_logic.GetUsers());
+                var response = _responseDTO.Success(_responseDTO, _logic.GetUsers());
+                return Ok(response);
             }
             catch (Exception e)
             {
-                return BadRequest(e);
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
             }
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         public IActionResult Insert([FromBody] UsersRequestDTO dto)
         {
+            _responseDTO = new ResponseDTO();
             try
             {
-                return Ok(_logic.Insert(dto));
+                var response = _responseDTO.Success(_responseDTO, _logic.Insert(dto));
+                return Ok(response);
             }
             catch (Exception e)
             {
-                return BadRequest(e);
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
             }
         }
 
         [HttpPut]
-        //[Authorize]
+        [Authorize]
         public IActionResult Update([FromBody] UsersRequestDTO dto)
         {
+            _responseDTO = new ResponseDTO();
             try
             {
-                return Ok(_logic.Update(dto));
+                var response = _responseDTO.Success(_responseDTO, _logic.Update(dto));
+                return Ok(response);
             }
             catch (Exception e)
             {
-                return BadRequest(e);
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
             }
         }
         [HttpDelete]
         [Route("{idUserDeleted:int}")]
-        //[Authorize]
+        [Authorize]
         public IActionResult Delete(int idUserDeleted)
         {
+            _responseDTO = new ResponseDTO();
             try
             {
-                return Ok(_logic.Delete(idUserDeleted));
+                var response = _responseDTO.Success(_responseDTO, _logic.Delete(idUserDeleted));
+                return Ok(response);
             }
             catch (Exception e)
             {
-                return BadRequest(e);
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
             }
         }
     }

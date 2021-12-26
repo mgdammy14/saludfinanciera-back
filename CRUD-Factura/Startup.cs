@@ -1,6 +1,12 @@
+using ApiBusinessModel.Implementation;
 using ApiBusinessModel.Implementation.General;
+using ApiBusinessModel.Implementation.Permission;
+using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
 using ApiBusinessModel.Interfaces.General;
+using ApiBusinessModel.Interfaces.Permission;
+using ApiBusinessModel.Interfaces.Rol;
+using ApiBusinessModel.Interfaces.Url;
 using ApiBusinessModel.Interfaces.Users;
 using ApiDataAccess.General;
 using ApiUnitOfWork.General;
@@ -53,8 +59,13 @@ namespace CRUD_Factura
                 };
             });
 
+            services.AddScoped<ILoginLogic, LoginLogic>();
             services.AddScoped<IUsersLogic, UsersLogic>();
             services.AddScoped<IEncryptLogic, EncryptLogic>();
+            services.AddScoped<IRolLogic, RolLogic>();
+            services.AddScoped<IUrlLogic, UrlLogic>();
+            services.AddScoped<IPermissionLogic, PermissionLogic>();
+
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("develop")
                 ));

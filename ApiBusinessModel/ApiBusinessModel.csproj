@@ -13,11 +13,28 @@
     <None Remove="Implementation\Users\" />
     <None Remove="Interfaces\General\" />
     <None Remove="Implementation\General\" />
+    <None Remove="Interfaces\Rol\" />
+    <None Remove="Implementation\Rol\" />
+    <None Remove="Interfaces\Url\" />
+    <None Remove="Implementation\Url\" />
+    <None Remove="Interfaces\Permission\" />
+    <None Remove="Implementation\Permission\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\Users\" />
     <Folder Include="Implementation\Users\" />
     <Folder Include="Interfaces\General\" />
     <Folder Include="Implementation\General\" />
+    <Folder Include="Interfaces\Rol\" />
+    <Folder Include="Implementation\Rol\" />
+    <Folder Include="Interfaces\Url\" />
+    <Folder Include="Implementation\Url\" />
+    <Folder Include="Interfaces\Permission\" />
+    <Folder Include="Implementation\Permission\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+    <PackageReference Include="System.Security.Claims" Version="4.3.0" />
   </ItemGroup>
 </Project>

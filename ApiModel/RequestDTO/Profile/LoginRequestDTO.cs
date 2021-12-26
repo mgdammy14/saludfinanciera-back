@@ -1,9 +1,9 @@
 ﻿using System;
-namespace ApiModel.RequestDTO.Profile
+namespace ApiModel.RequestDTO
 {
     public class LoginRequestDTO
     {
-        public string email { get; set; }
+        public string username { get; set; }
         public string password { get; set; }
     }
 }

@@ -27,9 +27,15 @@
   <ItemGroup>
     <None Remove="Controllers\Users\" />
     <None Remove="Controllers\Login\" />
+    <None Remove="Controllers\Rol\" />
+    <None Remove="Controllers\Url\" />
+    <None Remove="Controllers\Permission\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Users\" />
     <Folder Include="Controllers\Login\" />
+    <Folder Include="Controllers\Rol\" />
+    <Folder Include="Controllers\Url\" />
+    <Folder Include="Controllers\Permission\" />
   </ItemGroup>
 </Project>

@@ -1,11 +1,35 @@
 {
   "version": 2,
-  "dgSpecHash": "ntDgBHCPrrxpZZijwdYhUJ/vneWN+tb2rFSuH0ICLuonJvrGfFCsZMqc8h+4/L1h6c3WF0nNHtXR/JiEbQStOw==",
+  "dgSpecHash": "kuyp9wtWdrgtGoHGKoAPNpWAPzVpaz2e8oU5KsWXhEyrdcO/ZMWK7FUfYrhPi82R6mtlDwYn/sGWaKWvCcu81A==",
   "success": true,
   "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiBusinessModel/ApiBusinessModel.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
-    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512"
+    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.configuration/6.0.0/microsoft.extensions.configuration.6.0.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.0/microsoft.identitymodel.jsonwebtokens.6.15.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.identitymodel.logging/6.15.0/microsoft.identitymodel.logging.6.15.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.identitymodel.tokens/6.15.0/microsoft.identitymodel.tokens.6.15.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.identitymodel.tokens.jwt/6.15.0/system.identitymodel.tokens.jwt.6.15.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.security.claims/4.3.0/system.security.claims.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.security.principal/4.3.0/system.security.principal.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

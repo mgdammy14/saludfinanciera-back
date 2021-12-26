@@ -9,12 +9,30 @@
     <None Remove="ResponseDTO\" />
     <None Remove="RequestDTO\Profile\" />
     <None Remove="Users\" />
+    <None Remove="Rol\" />
+    <None Remove="RequestDTO\Users\" />
+    <None Remove="RequestDTO\Rol\" />
+    <None Remove="Urls\" />
+    <None Remove="RequestDTO\UrlRequest\" />
+    <None Remove="PermissionModel\" />
+    <None Remove="RequestDTO\PermissionRequest\" />
+    <None Remove="ResponseDTO\General\" />
+    <None Remove="ResponseDTO\Rol\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
     <Folder Include="ResponseDTO\" />
     <Folder Include="RequestDTO\Profile\" />
     <Folder Include="Users\" />
+    <Folder Include="Rol\" />
+    <Folder Include="RequestDTO\Users\" />
+    <Folder Include="RequestDTO\Rol\" />
+    <Folder Include="UrlModel\" />
+    <Folder Include="RequestDTO\UrlRequest\" />
+    <Folder Include="PermissionModel\" />
+    <Folder Include="RequestDTO\PermissionRequest\" />
+    <Folder Include="ResponseDTO\General\" />
+    <Folder Include="ResponseDTO\Rol\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />

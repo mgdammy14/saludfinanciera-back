@@ -16,8 +16,14 @@
 
   <ItemGroup>
     <None Remove="Users\" />
+    <None Remove="Rol\" />
+    <None Remove="Url\" />
+    <None Remove="Permission\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
+    <Folder Include="Rol\" />
+    <Folder Include="Url\" />
+    <Folder Include="Permission\" />
   </ItemGroup>
 </Project>
