@@ -15,55 +15,22 @@ namespace ApiBusinessModel.Implementation.Permission
             _unitOfWork = unitOfWork;
         }
 
-        public IEnumerable<ApiModel.PermissionModel.Permission> GetList()
+        public int AddPermissions(List<PermissionRequestDTO> dto)
         {
             try
             {
-                return _unitOfWork.IPermission.GetList();
+                //Eliminamos todos los permisos
+                _unitOfWork.IPermission.DeleteAllPermissionByIdRol(dto[0].idRol);
+                foreach (var item in dto)
+                {
+                    ApiModel.PermissionModel.Permission obj = new ApiModel.PermissionModel.Permission();
+                    _unitOfWork.IPermission.Insert(obj.Mapper(obj, item));
+                }
+                return 1;
             }
             catch(Exception e)
             {
-                throw;
-            }
-        }
-
-        public int Insert(PermissionRequestDTO dto)
-        {
-            try
-            {
-                ApiModel.PermissionModel.Permission obj = new ApiModel.PermissionModel.Permission();
-                return _unitOfWork.IPermission.Insert(obj.Mapper(obj, dto));
-            }
-            catch(Exception e)
-            {
-                throw;
-            }
-        }
-
-        public bool Update(PermissionRequestDTO dto)
-        {
-            try
-            {
-                ApiModel.PermissionModel.Permission obj = new ApiModel.PermissionModel.Permission();
-                return _unitOfWork.IPermission.Update(obj.Mapper(obj, dto));
-            }
-            catch (Exception e)
-            {
-                throw;
-            }
-        }
-
-        public bool Delete(int idPermissionDeleted)
-        {
-            try
-            {
-                ApiModel.PermissionModel.Permission obj = new ApiModel.PermissionModel.Permission();
-                obj.idPermission = idPermissionDeleted;
-                return _unitOfWork.IPermission.Delete(obj);
-            }
-            catch (Exception e)
-            {
-                throw;
+                throw e;
             }
         }
     }

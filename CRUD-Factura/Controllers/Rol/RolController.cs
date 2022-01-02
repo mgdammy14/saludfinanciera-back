@@ -52,14 +52,14 @@ namespace CRUD_Factura.Controllers.Rol
             }
         }
         [HttpDelete]
-        [Route("{idUserDeleted:int}")]
+        [Route("{idRolDeleted:int}")]
         [Authorize]
-        public IActionResult Delete(int idUserDeleted)
+        public IActionResult Delete(int idRolDeleted)
         {
             _responseDTO = new ResponseDTO();
             try
             {
-                var response = _responseDTO.Success(_responseDTO, _logic.Delete(idUserDeleted));
+                var response = _responseDTO.Success(_responseDTO, _logic.Delete(idRolDeleted));
                 return Ok(response);
             }
             catch (Exception e)
@@ -78,6 +78,24 @@ namespace CRUD_Factura.Controllers.Rol
             try
             {
                 var response = _responseDTO.Success(_responseDTO, _logic.GetRolWithPermissions());
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpGet]
+        [Route("{idRol:int}")]
+        [Authorize]
+        public IActionResult GetRolWithPermissionsByIdRol(int idRol)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.GetRolWithPermissionsByIdRol(idRol));
                 return Ok(response);
             }
             catch (Exception e)

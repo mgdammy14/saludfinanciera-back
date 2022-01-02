@@ -27,6 +27,7 @@
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/System.Data.SqlClient.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/System.IdentityModel.Tokens.Jwt.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/System.Runtime.CompilerServices.Unsafe.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/Twilio.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/runtimes/win-arm64/native/sni.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/runtimes/win-x64/native/sni.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Release/net5.0/PubTmp/Out/runtimes/win-x86/native/sni.dll

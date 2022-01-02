@@ -2,8 +2,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using ApiBusinessModel.Interfaces.General;
 using ApiBusinessModel.Interfaces.Users;
 using ApiModel.RequestDTO;
+using ApiModel.RequestDTO.SMS;
 using ApiModel.ResponseDTO.General;
 using ApiUnitOfWork.General;
 using Microsoft.AspNetCore.Authorization;
@@ -18,10 +20,12 @@ namespace CRUD_Factura.Controllers.Users
     {
         private ResponseDTO _responseDTO = null;
         private IUsersLogic _logic;
+        private ISMSLogic _smsLogic;
 
-        public UsersController(IUsersLogic logic)
+        public UsersController(IUsersLogic logic, ISMSLogic smsLogic)
         {
             _logic = logic;
+            _smsLogic = smsLogic;
         }
 
         [HttpGet]
@@ -83,6 +87,40 @@ namespace CRUD_Factura.Controllers.Users
             try
             {
                 var response = _responseDTO.Success(_responseDTO, _logic.Delete(idUserDeleted));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("sendSMS")]
+        public IActionResult SendSMS([FromBody] SMSRequestDTO dto)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _smsLogic.SendSMS(dto));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("sendWhatsAppSMS")]
+        public IActionResult SendWhatsAppSMS([FromBody] SMSRequestDTO dto)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _smsLogic.SendWhatsAppSMS(dto));
                 return Ok(response);
             }
             catch (Exception e)

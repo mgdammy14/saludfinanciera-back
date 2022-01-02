@@ -1,4 +1,5 @@
-﻿using ApiRepositories.PermissionRepository;
+﻿using ApiRepositories.Client;
+using ApiRepositories.PermissionRepository;
 using ApiRepositories.Rol;
 using ApiRepositories.UrlRepository;
 using ApiRepositories.Users;
@@ -16,5 +17,6 @@ namespace ApiUnitOfWork.General
         public IRolRepository IRol { get; set; }
         public IUrlRepository IUrl { get; set; }
         public IPermissionRepository IPermission { get; set; }
+        public IClientRepository IClient { get; set; }
     }
 }

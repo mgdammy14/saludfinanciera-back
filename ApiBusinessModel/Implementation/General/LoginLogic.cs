@@ -7,6 +7,8 @@ using ApiModel.ResponseDTO;
 using ApiUnitOfWork.General;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
+using ApiModel.ResponseDTO.General;
+using System.Linq;
 
 namespace ApiBusinessModel.Implementation.General
 {
@@ -21,11 +23,11 @@ namespace ApiBusinessModel.Implementation.General
             _encryptLogic = encryptLogic;
         }
 
-        public LoginResponseDTO Login(LoginRequestDTO dto)
+        public TokenResponseDTO Login(LoginRequestDTO dto)
         {
             try
             {
-                LoginResponseDTO response = new LoginResponseDTO();
+                TokenResponseDTO response = new TokenResponseDTO();
 
                 //Validamos si existe el usuario
                 var validateUser = _unitOfWork.IUsers.ValidateUsername(dto.username);
@@ -47,7 +49,8 @@ namespace ApiBusinessModel.Implementation.General
                         {
                             Subject = claims,
                             Expires = DateTime.UtcNow.AddHours(4),
-                            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+                            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+                            
                         };
 
                         var tokenHandler = new JwtSecurityTokenHandler();
@@ -55,8 +58,6 @@ namespace ApiBusinessModel.Implementation.General
 
                         string bearer_token = tokenHandler.WriteToken(createdToken);
 
-                        response.user = validateUser;
-                        response.rol = _unitOfWork.IRol.GetById(validateUser.idRol);
                         response.Token = bearer_token;
                     }
                     else
@@ -73,6 +74,28 @@ namespace ApiBusinessModel.Implementation.General
                 return response;
             }
             catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public LoginResponseDTO GetToken(string Authorization)
+        {
+            try
+            {
+                LoginResponseDTO response = new LoginResponseDTO();
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var token = Authorization.Split(' ')[1];
+                var readJwtToken = tokenHandler.ReadJwtToken(token);
+                var username = readJwtToken.Claims.First(claim => claim.Type == "nameid").Value;
+
+                response.user = _unitOfWork.IUsers.ValidateUsername(username);
+                response.rol = _unitOfWork.IRol.GetRolResponseById(response.user.idRol);
+                response.rol.permissionList = _unitOfWork.IUrl.GetUrlsByIdRol(response.user.idRol);
+
+                return response;
+            }
+            catch (Exception e)
             {
                 throw e;
             }

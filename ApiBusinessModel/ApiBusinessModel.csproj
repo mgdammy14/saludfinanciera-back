@@ -19,6 +19,8 @@
     <None Remove="Implementation\Url\" />
     <None Remove="Interfaces\Permission\" />
     <None Remove="Implementation\Permission\" />
+    <None Remove="Interfaces\Client\" />
+    <None Remove="Implementation\Client\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\Users\" />
@@ -31,10 +33,13 @@
     <Folder Include="Implementation\Url\" />
     <Folder Include="Interfaces\Permission\" />
     <Folder Include="Implementation\Permission\" />
+    <Folder Include="Interfaces\Client\" />
+    <Folder Include="Implementation\Client\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
     <PackageReference Include="System.Security.Claims" Version="4.3.0" />
+    <PackageReference Include="Twilio" Version="5.69.0" />
   </ItemGroup>
 </Project>

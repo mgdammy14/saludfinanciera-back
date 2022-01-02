@@ -16,12 +16,22 @@ namespace ApiBusinessModel.Implementation.Rol
             _unitOfWork = unitOfWork;
         }
 
-        public int Insert(RolRequestDTO dto)
+        public RolResponseDTO Insert(RolRequestDTO dto)
         {
             try
             {
+                RolResponseDTO response = new RolResponseDTO();
                 ApiModel.Rol.Rol obj = new ApiModel.Rol.Rol();
-                return _unitOfWork.IRol.Insert(obj.Mapper(obj, dto));
+
+                dto.idRol = _unitOfWork.IRol.Insert(obj.Mapper(obj, dto));
+
+                //response.idRol = idCreatedRol;
+                //response.rolName = dto.rolName;
+                //response.rolDescription = dto.rolDescription;
+                response = response.Mapper(response, dto);
+                response.permissionList = _unitOfWork.IUrl.GetUrlsByIdRol(dto.idRol);
+
+                return response;
             }
             catch (Exception e)
             {
@@ -29,12 +39,21 @@ namespace ApiBusinessModel.Implementation.Rol
             }
         }
 
-        public bool Update(RolRequestDTO dto)
+        public RolResponseDTO Update(RolRequestDTO dto)
         {
             try
             {
+                RolResponseDTO response = new RolResponseDTO();
                 ApiModel.Rol.Rol obj = new ApiModel.Rol.Rol();
-                return _unitOfWork.IRol.Update(obj.Mapper(obj, dto));
+
+                _unitOfWork.IRol.Update(obj.Mapper(obj, dto));
+
+                response.idRol = dto.idRol;
+                response.rolName = dto.rolName;
+                response.rolDescription = dto.rolDescription;
+                response.permissionList = _unitOfWork.IUrl.GetUrlsByIdRol(dto.idRol);
+
+                return response;
             }
             catch (Exception e)
             {
@@ -68,6 +87,20 @@ namespace ApiBusinessModel.Implementation.Rol
                 return rolList;
             }
             catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public RolResponseDTO GetRolWithPermissionsByIdRol(int idRol)
+        {
+            try
+            {
+                var rolResponse = _unitOfWork.IRol.GetRolResponseById(idRol);
+                rolResponse.permissionList = _unitOfWork.IUrl.GetUrlsByIdRol(idRol);
+                return rolResponse;
+            }
+            catch (Exception e)
             {
                 throw e;
             }

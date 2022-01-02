@@ -7,9 +7,10 @@ namespace ApiBusinessModel.Interfaces.Rol
 {
     public interface IRolLogic
     {
-        public int Insert(RolRequestDTO dto);
-        public bool Update(RolRequestDTO dto);
+        public RolResponseDTO Insert(RolRequestDTO dto);
+        public RolResponseDTO Update(RolRequestDTO dto);
         public bool Delete(int idRolRequest);
         public List<RolResponseDTO> GetRolWithPermissions();
+        public RolResponseDTO GetRolWithPermissionsByIdRol(int idRol);
     }
 }

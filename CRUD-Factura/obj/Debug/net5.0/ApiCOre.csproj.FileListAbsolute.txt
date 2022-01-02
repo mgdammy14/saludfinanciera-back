@@ -60,3 +60,4 @@
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Debug/net5.0/ref/ApiCOre.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Debug/net5.0/ApiCOre.pdb
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/obj/Debug/net5.0/ApiCOre.genruntimeconfig.cache
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/bin/Debug/net5.0/Twilio.dll

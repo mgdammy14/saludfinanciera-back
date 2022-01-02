@@ -1,8 +1,10 @@
 using ApiBusinessModel.Implementation;
+using ApiBusinessModel.Implementation.Client;
 using ApiBusinessModel.Implementation.General;
 using ApiBusinessModel.Implementation.Permission;
 using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
+using ApiBusinessModel.Interfaces.Client;
 using ApiBusinessModel.Interfaces.General;
 using ApiBusinessModel.Interfaces.Permission;
 using ApiBusinessModel.Interfaces.Rol;
@@ -14,10 +16,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
@@ -65,6 +69,8 @@ namespace CRUD_Factura
             services.AddScoped<IRolLogic, RolLogic>();
             services.AddScoped<IUrlLogic, UrlLogic>();
             services.AddScoped<IPermissionLogic, PermissionLogic>();
+            services.AddScoped<ISMSLogic, SMSLogic>();
+            services.AddScoped<IClientLogic, ClientLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("develop")
@@ -76,6 +82,8 @@ namespace CRUD_Factura
                     .RequireAuthenticatedUser()
                     .Build();
             });
+
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

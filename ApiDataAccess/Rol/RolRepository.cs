@@ -26,5 +26,19 @@ namespace ApiDataAccess.Rol
                 )).ToList();
             }
         }
+
+        public RolResponseDTO GetRolResponseById(int idRol)
+        {
+            var parameters = new DynamicParameters(new
+            {
+                p_idRol = idRol
+            });
+            string sql = "SELECT * FROM Rol WHERE idRol = @p_idRol ";
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return connection.QueryFirstOrDefault<RolResponseDTO>(
+                    sql, parameters);
+            }
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace ApiRepositories.Rol
     public interface IRolRepository : IRepository<ApiModel.Rol.Rol>
     {
         public List<RolResponseDTO> GetRolList();
+        public RolResponseDTO GetRolResponseById(int idRol);
     }
 }

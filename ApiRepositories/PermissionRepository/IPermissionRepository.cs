@@ -6,5 +6,6 @@ namespace ApiRepositories.PermissionRepository
 {
     public interface IPermissionRepository : IRepository<Permission>
     {
+        public int DeleteAllPermissionByIdRol(int idRol);
     }
 }

@@ -21,5 +21,21 @@ namespace ApiModel.ResponseDTO.General
             obj.status = 0;
             return obj;
         }
+
+        public ResponseDTO WrongUser(ResponseDTO obj, object objModel)
+        {
+            obj.description = "Wrong user";
+            obj.status = 2;
+            obj.objModel = objModel;
+            return obj;
+        }
+
+        public ResponseDTO WrongPassword(ResponseDTO obj, object objModel)
+        {
+            obj.description = "Wrong password";
+            obj.status = 3;
+            obj.objModel = objModel;
+            return obj;
+        }
     }
 }

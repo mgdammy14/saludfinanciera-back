@@ -19,11 +19,13 @@
     <None Remove="Rol\" />
     <None Remove="Url\" />
     <None Remove="Permission\" />
+    <None Remove="Client\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
     <Folder Include="Rol\" />
     <Folder Include="Url\" />
     <Folder Include="Permission\" />
+    <Folder Include="Client\" />
   </ItemGroup>
 </Project>

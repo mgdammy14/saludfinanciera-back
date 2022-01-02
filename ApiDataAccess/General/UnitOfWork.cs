@@ -1,7 +1,9 @@
-﻿using ApiDataAccess.Permission;
+﻿using ApiDataAccess.Client;
+using ApiDataAccess.Permission;
 using ApiDataAccess.Rol;
 using ApiDataAccess.Url;
 using ApiDataAccess.Users;
+using ApiRepositories.Client;
 using ApiRepositories.PermissionRepository;
 using ApiRepositories.Rol;
 using ApiRepositories.UrlRepository;
@@ -21,6 +23,7 @@ namespace ApiDataAccess.General
         public IRolRepository IRol { get; set; }
         public IUrlRepository IUrl { get; set; }
         public IPermissionRepository IPermission { get; set; }
+        public IClientRepository IClient { get; set; }
 
         public UnitOfWork(string connectionString)
         {
@@ -28,6 +31,7 @@ namespace ApiDataAccess.General
             IRol = new RolRepository(connectionString);
             IUrl = new UrlRepository(connectionString);
             IPermission = new PermissionRepository(connectionString);
+            IClient = new ClientRepository(connectionString);
 
         }
     }

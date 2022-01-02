@@ -26,35 +26,39 @@ namespace ApiBusinessModel.Implementation.Users
             }
             catch(Exception e)
             {
-                throw;
+                throw e;
             }
         }
 
-        public int Insert(UsersRequestDTO dto)
+        public ApiModel.Users.Users Insert(UsersRequestDTO dto)
         {
             try
             {
                 ApiModel.Users.Users obj = new ApiModel.Users.Users();
                 dto.password = _encryptLogic.Encrypt(dto.password);
-                return _unitOfWork.IUsers.Insert(obj.Mapper(obj, dto));
+                obj.idUser = _unitOfWork.IUsers.Insert(obj.Mapper(obj, dto));
+                obj.password = dto.password;
+                return obj;
             }
             catch(Exception e)
             {
-                throw;
+                throw e;
             }
         }
 
-        public bool Update(UsersRequestDTO dto)
+        public ApiModel.Users.Users Update(UsersRequestDTO dto)
         {
             try
             {
                 ApiModel.Users.Users obj = new ApiModel.Users.Users();
                 dto.password = _encryptLogic.Encrypt(dto.password);
-                return _unitOfWork.IUsers.Update(obj.Mapper(obj, dto));
+                _unitOfWork.IUsers.Update(obj.Mapper(obj, dto));
+                obj.password = dto.password;
+                return obj;
             }
             catch (Exception e)
             {
-                throw;
+                throw e;
             }
         }
 

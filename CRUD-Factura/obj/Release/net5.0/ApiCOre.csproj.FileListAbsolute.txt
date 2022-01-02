@@ -60,3 +60,4 @@
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/bin/Release/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/bin/Release/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/bin/Release/net5.0/System.Runtime.CompilerServices.Unsafe.dll
+/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/bin/Release/net5.0/Twilio.dll

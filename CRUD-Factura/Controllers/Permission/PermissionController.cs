@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ApiBusinessModel.Interfaces.Permission;
 using ApiModel.RequestDTO.PermissionRequest;
 using ApiModel.ResponseDTO.General;
@@ -18,65 +19,14 @@ namespace CRUD_Factura.Controllers.Permission
             _logic = permissionLogic;
         }
 
-        [HttpGet]
-        [Authorize]
-        public IActionResult GetList()
-        {
-            _responseDTO = new ResponseDTO();
-            try
-            {
-                var response = _responseDTO.Success(_responseDTO, _logic.GetList());
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                var response = _responseDTO.Failed(_responseDTO, e);
-                return BadRequest(response);
-            }
-        }
-
-        [HttpPost]
-        [Authorize]
-        public IActionResult Insert([FromBody] PermissionRequestDTO dto)
-        {
-            _responseDTO = new ResponseDTO();
-            try
-            {
-                var response = _responseDTO.Success(_responseDTO, _logic.Insert(dto));
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                var response = _responseDTO.Failed(_responseDTO, e);
-                return BadRequest(response);
-            }
-        }
-
         [HttpPut]
         [Authorize]
-        public IActionResult Update([FromBody] PermissionRequestDTO dto)
+        public IActionResult Update([FromBody] List<PermissionRequestDTO> dto)
         {
             _responseDTO = new ResponseDTO();
             try
             {
-                var response = _responseDTO.Success(_responseDTO, _logic.Update(dto));
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                var response = _responseDTO.Failed(_responseDTO, e);
-                return BadRequest(response);
-            }
-        }
-        [HttpDelete]
-        [Route("{idPermissionDeleted:int}")]
-        [Authorize]
-        public IActionResult Delete(int idPermissionDeleted)
-        {
-            _responseDTO = new ResponseDTO();
-            try
-            {
-                var response = _responseDTO.Success(_responseDTO, _logic.Delete(idPermissionDeleted));
+                var response = _responseDTO.Success(_responseDTO, _logic.AddPermissions(dto));
                 return Ok(response);
             }
             catch (Exception e)

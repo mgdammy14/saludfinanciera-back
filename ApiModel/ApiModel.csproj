@@ -18,6 +18,10 @@
     <None Remove="RequestDTO\PermissionRequest\" />
     <None Remove="ResponseDTO\General\" />
     <None Remove="ResponseDTO\Rol\" />
+    <None Remove="RequestDTO\SMS\" />
+    <None Remove="ClientModel\" />
+    <None Remove="RequestDTO\Client\" />
+    <None Remove="ResponseDTO\Client\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
@@ -33,6 +37,10 @@
     <Folder Include="RequestDTO\PermissionRequest\" />
     <Folder Include="ResponseDTO\General\" />
     <Folder Include="ResponseDTO\Rol\" />
+    <Folder Include="RequestDTO\SMS\" />
+    <Folder Include="ClientModel\" />
+    <Folder Include="RequestDTO\Client\" />
+    <Folder Include="ResponseDTO\Client\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
