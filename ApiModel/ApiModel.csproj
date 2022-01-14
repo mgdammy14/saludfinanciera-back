@@ -22,6 +22,9 @@
     <None Remove="ClientModel\" />
     <None Remove="RequestDTO\Client\" />
     <None Remove="ResponseDTO\Client\" />
+    <None Remove="Prestamos\" />
+    <None Remove="ResponseDTO\Prestamos\" />
+    <None Remove="RequestDTO\Prestamos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
@@ -41,6 +44,9 @@
     <Folder Include="ClientModel\" />
     <Folder Include="RequestDTO\Client\" />
     <Folder Include="ResponseDTO\Client\" />
+    <Folder Include="Prestamos\" />
+    <Folder Include="ResponseDTO\Prestamos\" />
+    <Folder Include="RequestDTO\Prestamos\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />

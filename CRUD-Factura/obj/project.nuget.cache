@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sGtnznRylEtPZvMrR+2/6Eihq5dgzI94oVpMHG2MDf9Lyi0//qwzh3Njlay9kPmCkDvRU9xljUzSAd1N+flFHA==",
+  "dgSpecHash": "6EL+T5eJIuqgDlI10lUWyl4J/uGMUwHyYAuRELEfmP+3pCxbpuSuiFh3I0aPTz7WFP2ByNs081oDdexBXC142A==",
   "success": true,
   "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/ApiCOre.csproj",
   "expectedPackageFiles": [
@@ -59,7 +59,7 @@
     "/Users/gonzalopingo/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/Users/gonzalopingo/.nuget/packages/twilio/5.69.0/twilio.5.69.0.nupkg.sha512"
+    "/Users/gonzalopingo/.nuget/packages/twilio/5.70.0/twilio.5.70.0.nupkg.sha512"
   ],
   "logs": []
 }

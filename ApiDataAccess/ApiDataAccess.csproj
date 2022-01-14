@@ -20,6 +20,7 @@
     <None Remove="Url\" />
     <None Remove="Permission\" />
     <None Remove="Client\" />
+    <None Remove="Prestamos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
@@ -27,5 +28,6 @@
     <Folder Include="Url\" />
     <Folder Include="Permission\" />
     <Folder Include="Client\" />
+    <Folder Include="Prestamos\" />
   </ItemGroup>
 </Project>

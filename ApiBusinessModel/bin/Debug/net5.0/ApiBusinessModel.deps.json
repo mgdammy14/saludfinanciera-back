@@ -12,7 +12,7 @@
           "Microsoft.Extensions.Configuration": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.15.0",
           "System.Security.Claims": "4.3.0",
-          "Twilio": "5.69.0"
+          "Twilio": "5.70.0"
         },
         "runtime": {
           "ApiBusinessModel.dll": {}
@@ -287,7 +287,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "Twilio/5.69.0": {
+      "Twilio/5.70.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "6.15.0",
           "Newtonsoft.Json": "11.0.2",
@@ -296,8 +296,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Twilio.dll": {
-            "assemblyVersion": "5.69.0.0",
-            "fileVersion": "5.69.0.0"
+            "assemblyVersion": "5.70.0.0",
+            "fileVersion": "5.70.0.0"
           }
         }
       },
@@ -572,12 +572,12 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "Twilio/5.69.0": {
+    "Twilio/5.70.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j6yvOwgnNPPINgPD8y3ppLLQl5UgO5YaRXn95rL2u4UQTr/BTPODJ8JdIG6W9O8EkXFiLB4rxHs9KoeGGvXiHQ==",
-      "path": "twilio/5.69.0",
-      "hashPath": "twilio.5.69.0.nupkg.sha512"
+      "sha512": "sha512-RlZhrKI2ISGDTZoYBwHHM5tRlis/Qmunvad1bHJ9J+PcjZrub1uD85GZGyn6R6wjSXnr6lAWTTKOpXbzVjRTvw==",
+      "path": "twilio/5.70.0",
+      "hashPath": "twilio.5.70.0.nupkg.sha512"
     },
     "ApiModel/1.0.0": {
       "type": "project",

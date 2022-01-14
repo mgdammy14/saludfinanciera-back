@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nobnm6giynl2C354/YUszO1vUUvj8yIOw67FnfZ2lswvP8vP9QE+qEURHWQ6nvD0ucUe+uPJM+dmyYF5SEyBzw==",
+  "dgSpecHash": "HPQvEVU/I4Gaz5Cs0hobNJPoXaovlRnlCiO3JAhacm+Lrii/MPRbF5A0DNH5tyztOkWk3JQFQsNHdK55NqlApA==",
   "success": true,
   "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiBusinessModel/ApiBusinessModel.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "/Users/gonzalopingo/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/Users/gonzalopingo/.nuget/packages/twilio/5.69.0/twilio.5.69.0.nupkg.sha512"
+    "/Users/gonzalopingo/.nuget/packages/twilio/5.70.0/twilio.5.70.0.nupkg.sha512"
   ],
   "logs": []
 }

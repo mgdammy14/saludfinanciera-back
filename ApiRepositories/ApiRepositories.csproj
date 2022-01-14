@@ -14,6 +14,7 @@
     <None Remove="UrlRepository\" />
     <None Remove="PermissionRepository\" />
     <None Remove="Client\" />
+    <None Remove="Prestamos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
@@ -21,5 +22,6 @@
     <Folder Include="UrlRepository\" />
     <Folder Include="PermissionRepository\" />
     <Folder Include="Client\" />
+    <Folder Include="Prestamos\" />
   </ItemGroup>
 </Project>

@@ -51,6 +51,7 @@ namespace CRUD_Factura.Controllers.Rol
                 return BadRequest(response);
             }
         }
+        
         [HttpDelete]
         [Route("{idRolDeleted:int}")]
         [Authorize]

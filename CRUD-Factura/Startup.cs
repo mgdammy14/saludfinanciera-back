@@ -2,11 +2,13 @@ using ApiBusinessModel.Implementation;
 using ApiBusinessModel.Implementation.Client;
 using ApiBusinessModel.Implementation.General;
 using ApiBusinessModel.Implementation.Permission;
+using ApiBusinessModel.Implementation.Prestamos;
 using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
 using ApiBusinessModel.Interfaces.Client;
 using ApiBusinessModel.Interfaces.General;
 using ApiBusinessModel.Interfaces.Permission;
+using ApiBusinessModel.Interfaces.Prestamos;
 using ApiBusinessModel.Interfaces.Rol;
 using ApiBusinessModel.Interfaces.Url;
 using ApiBusinessModel.Interfaces.Users;
@@ -71,6 +73,8 @@ namespace CRUD_Factura
             services.AddScoped<IPermissionLogic, PermissionLogic>();
             services.AddScoped<ISMSLogic, SMSLogic>();
             services.AddScoped<IClientLogic, ClientLogic>();
+            services.AddScoped<ILoanLogic, LoanLogic>();
+            services.AddScoped<IPaymentScheduleLogic, PaymentScheduleLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("develop")

@@ -31,6 +31,7 @@
     <None Remove="Controllers\Url\" />
     <None Remove="Controllers\Permission\" />
     <None Remove="Controllers\Client\" />
+    <None Remove="Controllers\Prestamos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Users\" />
@@ -39,5 +40,6 @@
     <Folder Include="Controllers\Url\" />
     <Folder Include="Controllers\Permission\" />
     <Folder Include="Controllers\Client\" />
+    <Folder Include="Controllers\Prestamos\" />
   </ItemGroup>
 </Project>
