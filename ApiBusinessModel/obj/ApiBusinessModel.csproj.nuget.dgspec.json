@@ -42,6 +42,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.11.0-beta.2, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -119,6 +139,10 @@
             "Dapper.Contrib": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             }
           },
           "imports": [
@@ -233,6 +257,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

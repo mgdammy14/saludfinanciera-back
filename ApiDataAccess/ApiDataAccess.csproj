@@ -21,6 +21,8 @@
     <None Remove="Permission\" />
     <None Remove="Client\" />
     <None Remove="Prestamos\" />
+    <None Remove="Pagos\" />
+    <None Remove="Mensajes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
@@ -29,5 +31,7 @@
     <Folder Include="Permission\" />
     <Folder Include="Client\" />
     <Folder Include="Prestamos\" />
+    <Folder Include="Pagos\" />
+    <Folder Include="Mensajes\" />
   </ItemGroup>
 </Project>

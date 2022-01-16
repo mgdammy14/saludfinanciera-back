@@ -1,4 +1,7 @@
 ﻿using ApiRepositories.Client;
+using ApiRepositories.General;
+using ApiRepositories.Mensajes;
+using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
 using ApiRepositories.Prestamos;
 using ApiRepositories.Rol;
@@ -23,5 +26,9 @@ namespace ApiUnitOfWork.General
         public IAmortizationRepository IAmortization { get; set; }
         public IPaymentScheduleRepository IPaymentSchedule { get; set; }
         public IClientLoanRepository IClientLoan { get; set; }
+        public IPaymentRepository IPayment { get; set; }
+        public IMessageRepository IMessage { get; set; }
+        public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
+        public IBankRepository IBank { get; set; }
     }
 }

@@ -1,12 +1,16 @@
 using ApiBusinessModel.Implementation;
 using ApiBusinessModel.Implementation.Client;
 using ApiBusinessModel.Implementation.General;
+using ApiBusinessModel.Implementation.Mensajes;
+using ApiBusinessModel.Implementation.Pagos;
 using ApiBusinessModel.Implementation.Permission;
 using ApiBusinessModel.Implementation.Prestamos;
 using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
 using ApiBusinessModel.Interfaces.Client;
 using ApiBusinessModel.Interfaces.General;
+using ApiBusinessModel.Interfaces.Mensajes;
+using ApiBusinessModel.Interfaces.Pagos;
 using ApiBusinessModel.Interfaces.Permission;
 using ApiBusinessModel.Interfaces.Prestamos;
 using ApiBusinessModel.Interfaces.Rol;
@@ -75,9 +79,13 @@ namespace CRUD_Factura
             services.AddScoped<IClientLogic, ClientLogic>();
             services.AddScoped<ILoanLogic, LoanLogic>();
             services.AddScoped<IPaymentScheduleLogic, PaymentScheduleLogic>();
+            services.AddScoped<IPaymentLogic, PaymentLogic>();
+            services.AddScoped<IMessageLogic, MessageLogic>();
+            services.AddScoped<IUploadFileLogic, UploadFileLogic>();
+            services.AddScoped<IBankLogic, BankLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
-                    Configuration.GetConnectionString("develop")
+                    Configuration.GetConnectionString("develop-azure")
                 ));
 
             services.AddAuthorization(auth => {
@@ -140,6 +148,8 @@ namespace CRUD_Factura
                .AllowCredentials()); // a
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseRouting();
 

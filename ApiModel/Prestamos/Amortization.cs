@@ -1,6 +1,4 @@
 ﻿using System;
-using Dapper.Contrib.Extensions;
-
 namespace ApiModel.Prestamos
 {
     public class Amortization

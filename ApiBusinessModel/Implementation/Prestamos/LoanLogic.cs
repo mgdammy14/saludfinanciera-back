@@ -79,14 +79,30 @@ namespace ApiBusinessModel.Implementation.Prestamos
                 response.amortization = amortizationResponse;
 
                 //Traemos a todos los clientes
-                response.clientList = _unitOfWork.IClient.GetClientsByIdLoan(idLoan);
+                var clientListCheck = _unitOfWork.IClient.GetClientsByIdLoan(idLoan);
 
+                if(clientListCheck.Count == 0)
+                {
+                    response.clientList = null;
+                }
+                else
+                {
+                    response.clientList = clientListCheck;
+                }
+                
                 //Mostramos el cronograma de pagos
                 var loan = _unitOfWork.ILoan.GetById(idLoan);
-                CreateScheduleRequestDTO createScheduleRequest = new CreateScheduleRequestDTO();
-                createScheduleRequest.idGroupPayment = 1;
-                createScheduleRequest.startPaymentDate = loan.startpaymentDate;
-                response.paymentSchedule = _paymentScheduleLogic.CreatePaymentSchedule(createScheduleRequest);
+                if (loan.startpaymentDate != null)
+                {
+                    CreateScheduleRequestDTO createScheduleRequest = new CreateScheduleRequestDTO();
+                    createScheduleRequest.idGroupPayment = 1;
+                    createScheduleRequest.startPaymentDate = (DateTime)loan.startpaymentDate;
+                    response.paymentSchedule = _paymentScheduleLogic.CreatePaymentSchedule(createScheduleRequest);
+                }
+                else
+                {
+                    response.paymentSchedule = null;
+                }
 
                 return response;
             }

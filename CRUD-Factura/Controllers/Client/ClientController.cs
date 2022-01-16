@@ -123,5 +123,41 @@ namespace CRUD_Factura.Controllers.Client
                 return BadRequest(response);
             }
         }
+
+        [HttpGet]
+        [Route("byIdLoan/{idLoan:int}")]
+        [Authorize]
+        public IActionResult GetClientByIdLoan(int idLoan)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.GetClientByIdLoan(idLoan));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpPost]
+        [Route("uploadSentinelPdf")]
+        //[Authorize]
+        public IActionResult UploadSentinelPdf([FromForm] UploadPdfRequestDTO dto)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.UploadSentinelPdf(dto));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
     }
 }

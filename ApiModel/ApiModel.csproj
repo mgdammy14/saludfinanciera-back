@@ -25,6 +25,13 @@
     <None Remove="Prestamos\" />
     <None Remove="ResponseDTO\Prestamos\" />
     <None Remove="RequestDTO\Prestamos\" />
+    <None Remove="Pagos\" />
+    <None Remove="RequestDTO\Pagos\" />
+    <None Remove="ResponseDTO\Pagos\" />
+    <None Remove="Mensajes\" />
+    <None Remove="RequestDTO\Mensajes\" />
+    <None Remove="ResponseDTO\Mensajes\" />
+    <None Remove="General\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
@@ -47,9 +54,17 @@
     <Folder Include="Prestamos\" />
     <Folder Include="ResponseDTO\Prestamos\" />
     <Folder Include="RequestDTO\Prestamos\" />
+    <Folder Include="Pagos\" />
+    <Folder Include="RequestDTO\Pagos\" />
+    <Folder Include="ResponseDTO\Pagos\" />
+    <Folder Include="Mensajes\" />
+    <Folder Include="RequestDTO\Mensajes\" />
+    <Folder Include="ResponseDTO\Mensajes\" />
+    <Folder Include="General\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>

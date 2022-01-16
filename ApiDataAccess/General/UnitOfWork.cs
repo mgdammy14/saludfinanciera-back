@@ -1,10 +1,15 @@
 ﻿using ApiDataAccess.Client;
+using ApiDataAccess.Mensajes;
+using ApiDataAccess.Pagos;
 using ApiDataAccess.Permission;
 using ApiDataAccess.Prestamos;
 using ApiDataAccess.Rol;
 using ApiDataAccess.Url;
 using ApiDataAccess.Users;
 using ApiRepositories.Client;
+using ApiRepositories.General;
+using ApiRepositories.Mensajes;
+using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
 using ApiRepositories.Prestamos;
 using ApiRepositories.Rol;
@@ -30,6 +35,10 @@ namespace ApiDataAccess.General
         public IAmortizationRepository IAmortization { get; set; }
         public IPaymentScheduleRepository IPaymentSchedule { get; set; }
         public IClientLoanRepository IClientLoan { get; set; }
+        public IPaymentRepository IPayment { get; set; }
+        public IMessageRepository IMessage { get; set; }
+        public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
+        public IBankRepository IBank { get; set; }
 
         public UnitOfWork(string connectionString)
         {
@@ -42,6 +51,10 @@ namespace ApiDataAccess.General
             IAmortization = new AmortizationRepository(connectionString);
             IPaymentSchedule = new PaymentScheduleRepository(connectionString);
             IClientLoan = new ClientLoanRepository(connectionString);
+            IPayment = new PaymentRepository(connectionString);
+            IMessage = new MessageRepository(connectionString);
+            IHistoricalSentinelReport = new HistoricalSentinelReportRepository(connectionString);
+            IBank = new BankRepository(connectionString);
         }
     }
 }

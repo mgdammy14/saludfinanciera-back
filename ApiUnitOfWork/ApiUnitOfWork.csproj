@@ -8,4 +8,8 @@
     <ProjectReference Include="..\ApiRepositories\ApiRepositories.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+  </ItemGroup>
+
 </Project>

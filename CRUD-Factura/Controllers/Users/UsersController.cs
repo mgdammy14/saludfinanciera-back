@@ -95,39 +95,5 @@ namespace CRUD_Factura.Controllers.Users
                 return BadRequest(response);
             }
         }
-
-        [HttpPost]
-        [Route("sendSMS")]
-        public IActionResult SendSMS([FromBody] SMSRequestDTO dto)
-        {
-            _responseDTO = new ResponseDTO();
-            try
-            {
-                var response = _responseDTO.Success(_responseDTO, _smsLogic.SendSMS(dto));
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                var response = _responseDTO.Failed(_responseDTO, e);
-                return BadRequest(response);
-            }
-        }
-
-        [HttpPost]
-        [Route("sendWhatsAppSMS")]
-        public IActionResult SendWhatsAppSMS([FromBody] SMSRequestDTO dto)
-        {
-            _responseDTO = new ResponseDTO();
-            try
-            {
-                var response = _responseDTO.Success(_responseDTO, _smsLogic.SendWhatsAppSMS(dto));
-                return Ok(response);
-            }
-            catch (Exception e)
-            {
-                var response = _responseDTO.Failed(_responseDTO, e);
-                return BadRequest(response);
-            }
-        }
     }
 }

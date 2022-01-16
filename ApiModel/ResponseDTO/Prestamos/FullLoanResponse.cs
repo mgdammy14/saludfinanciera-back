@@ -8,6 +8,6 @@ namespace ApiModel.ResponseDTO.Prestamos
     {
         public List<ApiModel.ClientModel.Client> clientList { get; set; }
         public Amortization amortization { get; set; }
-        public List<PaymentSchedule> paymentSchedule { get; set; }
+        public List<PaymentSchedule>? paymentSchedule { get; set; }
     }
 }

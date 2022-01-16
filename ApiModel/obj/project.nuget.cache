@@ -1,11 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "CA7Ip/5AecfB1Ox96NtnJoGKM8vI6lWrHd8ZH1KtMsHPaY4uw+kOWdwgDVAjAecjhpG7gAlS8Qiw4J0quPh3xg==",
+  "dgSpecHash": "9WHly9Pv3MXGdVVKACD9XYsxeZkPRP0RnEfWBtAJuQYYY0ozjFgdp0MpNqW83M/OBXYML48BNtXXsA4figWkkg==",
   "success": true,
   "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/ApiModel.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
-    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512"
+    "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.2.0/microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.objectpool/2.2.0/microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.options/2.2.0/microsoft.extensions.options.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.extensions.primitives/2.2.0/microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "/Users/gonzalopingo/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

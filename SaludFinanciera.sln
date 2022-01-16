@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{7FAE53EA-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{231763AB-BD61-4805-82A7-2818BEEDC818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCore", "CRUD-Factura\ApiCOre.csproj", "{3025E349-F077-4C6E-91C4-18893499FD40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCOre", "CRUD-Factura\ApiCOre.csproj", "{3025E349-F077-4C6E-91C4-18893499FD40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

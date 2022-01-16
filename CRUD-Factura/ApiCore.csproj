@@ -13,10 +13,12 @@
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,10 @@
     <None Remove="Controllers\Permission\" />
     <None Remove="Controllers\Client\" />
     <None Remove="Controllers\Prestamos\" />
+    <None Remove="Controllers\Pagos\" />
+    <None Remove="Microsoft.Azure.Storage.Blob" />
+    <None Remove="Controllers\Mensajes\" />
+    <None Remove="Controllers\General\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Users\" />
@@ -41,5 +47,8 @@
     <Folder Include="Controllers\Permission\" />
     <Folder Include="Controllers\Client\" />
     <Folder Include="Controllers\Prestamos\" />
+    <Folder Include="Controllers\Pagos\" />
+    <Folder Include="Controllers\Mensajes\" />
+    <Folder Include="Controllers\General\" />
   </ItemGroup>
 </Project>

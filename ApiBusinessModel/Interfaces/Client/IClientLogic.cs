@@ -13,5 +13,7 @@ namespace ApiBusinessModel.Interfaces.Client
         public int ChangeClientState(int idClient);
         public int AddToLoan(ClientLoanRequestDTO dto);
         public int AddToLoanList(List<ClientLoanRequestDTO> dtoList);
+        public List<ApiModel.ClientModel.Client> GetClientByIdLoan(int idLoan);
+        public string UploadSentinelPdf(UploadPdfRequestDTO dto);
     }
 }
