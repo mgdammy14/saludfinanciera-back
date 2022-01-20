@@ -27,11 +27,9 @@ namespace ApiBusinessModel.Implementation.Prestamos
             return _unitOfWork.IPaymentSchedule.GetList();
         }
 
-
-
         public List<PaymentSchedule> CreatePaymentSchedule(CreateScheduleRequestDTO dto)
         {
-            var response = _unitOfWork.IPaymentSchedule.GetList().ToList();
+            var response = _unitOfWork.IPaymentSchedule.GetScheduleByIdLoanAmount(dto.idLoanAmount);
 
             PaymentSchedule beforeItem = new PaymentSchedule();
 
@@ -40,7 +38,7 @@ namespace ApiBusinessModel.Implementation.Prestamos
 
                 if (item.installmentNumber != 0)
                 {
-                    item.paymentDate = beforeItem.paymentDate.AddDays(14);
+                    item.paymentDate = Convert.ToDateTime(beforeItem.paymentDate).AddDays(14);
                 }
                 else
                 {

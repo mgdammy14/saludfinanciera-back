@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
 
 namespace ApiModel.Prestamos
@@ -7,9 +8,9 @@ namespace ApiModel.Prestamos
     {
         [Key]
         public int idPaymentSchedule { get; set; }
-        public int idGroupPayment { get; set; }
+        public int idLoanAmount { get; set; }
         public int installmentNumber { get; set; }
-        public DateTime paymentDate { get; set; }
+        public DateTime? paymentDate { get; set; }
         public decimal fee { get; set; }
         public decimal capitalRepayment { get; set; }
         public decimal creditLifeInsurance { get; set; }

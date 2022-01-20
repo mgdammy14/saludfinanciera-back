@@ -95,7 +95,7 @@ namespace ApiBusinessModel.Implementation.Prestamos
                 if (loan.startpaymentDate != null)
                 {
                     CreateScheduleRequestDTO createScheduleRequest = new CreateScheduleRequestDTO();
-                    createScheduleRequest.idGroupPayment = 1;
+                    createScheduleRequest.idLoanAmount = 1;
                     createScheduleRequest.startPaymentDate = (DateTime)loan.startpaymentDate;
                     response.paymentSchedule = _paymentScheduleLogic.CreatePaymentSchedule(createScheduleRequest);
                 }

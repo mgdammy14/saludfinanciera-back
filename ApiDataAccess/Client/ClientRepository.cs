@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using ApiDataAccess.General;
+using ApiModel.ResponseDTO.Client;
 using ApiRepositories.Client;
 using Dapper;
 
@@ -43,6 +44,32 @@ namespace ApiDataAccess.Client
                 return (connection.Query<ApiModel.ClientModel.Client>(
                      sql, parameters
                 )).ToList();
+            }
+        }
+
+        public List<ClientResponseDTO> GetClientList()
+        {
+            var sql = @"select * from Client";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return (connection.Query<ClientResponseDTO>(
+                     sql
+                )).ToList();
+            }
+        }
+
+        public ApiModel.ClientModel.Client CheckClientByDocumentNumber(string documentNumber)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@documentNumber", documentNumber);
+            var sql = @"select * from Client where documentNumber = @documentNumber";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return (connection.Query<ApiModel.ClientModel.Client>(
+                     sql, parameters
+                )).FirstOrDefault();
             }
         }
     }

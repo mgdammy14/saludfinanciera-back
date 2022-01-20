@@ -30,5 +30,6 @@ namespace ApiUnitOfWork.General
         public IMessageRepository IMessage { get; set; }
         public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
         public IBankRepository IBank { get; set; }
+        public ILoanAmountRepository ILoanAmount { get; set; }
     }
 }

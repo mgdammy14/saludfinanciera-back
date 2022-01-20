@@ -144,13 +144,49 @@ namespace CRUD_Factura.Controllers.Client
 
         [HttpPost]
         [Route("uploadSentinelPdf")]
-        //[Authorize]
+        [Authorize]
         public IActionResult UploadSentinelPdf([FromForm] UploadPdfRequestDTO dto)
         {
             _responseDTO = new ResponseDTO();
             try
             {
                 var response = _responseDTO.Success(_responseDTO, _logic.UploadSentinelPdf(dto));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpDelete]
+        [Route("deleteFromLoan/{idClient:int}")]
+        [Authorize]
+        public IActionResult DeleteClientFromLoan(int idClient)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.DeleteClientFromLoan(idClient));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
+
+        [HttpGet]
+        [Route("chek/{documentNumber:int}")]
+        [Authorize]
+        public IActionResult CheckClientByDocumentNumber(int documentNumber)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.CheckClientByDocumentNumber(documentNumber.ToString()));
                 return Ok(response);
             }
             catch (Exception e)

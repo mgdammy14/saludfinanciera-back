@@ -57,12 +57,12 @@ namespace CRUD_Factura.Controllers.Prestamos
 
         [HttpPost]
         [Route("schedule")]
-        public IActionResult CrearCronogramaTest([FromBody] CreateScheduleRequestDTO firsPaymentDate)
+        public IActionResult CrearCronogramaTest([FromBody] CreateScheduleRequestDTO dto)
         {
             _responseDTO = new ResponseDTO();
             try
             {
-                var response = _responseDTO.Success(_responseDTO, _logic.CreatePaymentSchedule(firsPaymentDate));
+                var response = _responseDTO.Success(_responseDTO, _logic.CreatePaymentSchedule(dto));
                 return Ok(response);
             }
             catch (Exception e)

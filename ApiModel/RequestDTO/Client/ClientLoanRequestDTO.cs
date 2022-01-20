@@ -5,5 +5,6 @@ namespace ApiModel.RequestDTO.Client
     {
         public int idClient { get; set; }
         public int idLoan { get; set; }
+        public int idLoanAmount { get; set; }
     }
 }

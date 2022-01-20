@@ -83,6 +83,7 @@ namespace CRUD_Factura
             services.AddScoped<IMessageLogic, MessageLogic>();
             services.AddScoped<IUploadFileLogic, UploadFileLogic>();
             services.AddScoped<IBankLogic, BankLogic>();
+            services.AddScoped<ILoanAmountLogic, LoanAmountLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("develop-azure")

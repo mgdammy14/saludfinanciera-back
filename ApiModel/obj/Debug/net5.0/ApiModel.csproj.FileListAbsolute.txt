@@ -56,4 +56,3 @@ D:/Aplications/ASP.NET-Core/Gonzalo/CRUD-Factura/ApiModel/obj/Debug/net5.0/ApiMo
 /Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ref/ApiModel.dll
 /Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.pdb
-/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/Debug/net5.0/ApiModel.csproj.AssemblyReference.cache

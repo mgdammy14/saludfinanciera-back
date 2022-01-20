@@ -13,6 +13,9 @@ namespace ApiBusinessModel.Implementation.General
     {
         private readonly IUnitOfWork _unitOfWork;
 
+        private string accountSid = "AC234f246e4d3d74abd477951243592d8b";
+        private string authToken = "50ad8fe0c393683eeb613ef4be867bbc";
+
         public SMSLogic(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -133,9 +136,6 @@ namespace ApiBusinessModel.Implementation.General
         {
             try
             {
-                string accountSid = "AC234f246e4d3d74abd477951243592d8b";
-                string authToken = "94fb7e8c0191bd01509049e7c486e5c2";
-
                 TwilioClient.Init(accountSid, authToken);
 
                 var message = MessageResource.Create(
@@ -155,9 +155,6 @@ namespace ApiBusinessModel.Implementation.General
         {
             try
             {
-                string accountSid = "AC234f246e4d3d74abd477951243592d8b";
-                string authToken = "94fb7e8c0191bd01509049e7c486e5c2";
-
                 TwilioClient.Init(accountSid, authToken);
 
                 var message = MessageResource.Create(

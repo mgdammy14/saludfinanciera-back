@@ -39,6 +39,7 @@ namespace ApiDataAccess.General
         public IMessageRepository IMessage { get; set; }
         public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
         public IBankRepository IBank { get; set; }
+        public ILoanAmountRepository ILoanAmount { get; set; }
 
         public UnitOfWork(string connectionString)
         {
@@ -55,6 +56,7 @@ namespace ApiDataAccess.General
             IMessage = new MessageRepository(connectionString);
             IHistoricalSentinelReport = new HistoricalSentinelReportRepository(connectionString);
             IBank = new BankRepository(connectionString);
+            ILoanAmount = new LoanAmountRepository(connectionString);
         }
     }
 }

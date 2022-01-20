@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Transactions;
 using ApiBusinessModel.Interfaces.Client;
 using ApiBusinessModel.Interfaces.General;
@@ -22,11 +23,28 @@ namespace ApiBusinessModel.Implementation.Client
             _uploadFileLogic = uploadFileLogic;
         }
 
-        public IEnumerable<ApiModel.ClientModel.Client> GetList()
+        public List<ClientResponseDTO> GetList()
         {
             try
             {
-                return _unitOfWork.IClient.GetList();
+                List<ClientResponseDTO> response = new List<ClientResponseDTO>();
+
+                response = _unitOfWork.IClient.GetClientList();
+
+                foreach(var item in response)
+                {
+
+                    int Years(DateTime start, DateTime end)
+                    {
+                        return (end.Year - start.Year - 1) +
+                            (((end.Month > start.Month) ||
+                            ((end.Month == start.Month) && (end.Day >= start.Day))) ? 1 : 0);
+                    }
+
+                    item.age = Years(item.clientDateOfBirth, DateTime.Now);
+                }
+
+                return response;
             }
             catch(Exception e)
             {
@@ -97,21 +115,10 @@ namespace ApiBusinessModel.Implementation.Client
         {
             try
             {
-                var response = 0;
-
-                using (var transaction = new TransactionScope())
-                {
-
-                    ClientLoan obj = new ClientLoan();
-                    //Eliminamos el registro segun el idClient
-                    _unitOfWork.IClientLoan.DeleteClientLoanRegister(dto.idClient);
-                    //Insertamos
-                    response = _unitOfWork.IClientLoan.Insert(obj.Mapper(obj, dto));
-                    transaction.Complete();
-
-                }
-
-                return response;
+                ClientLoan obj = new ClientLoan();
+                obj.clientLoan = dto.idClient.ToString() + dto.idLoan.ToString();
+                _unitOfWork.IClientLoan.Insert(obj.Mapper(obj, dto));
+                return 1;
             }
             catch(Exception e)
             {
@@ -129,6 +136,18 @@ namespace ApiBusinessModel.Implementation.Client
                     response = AddToLoan(item);
                 }
                 return response;
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public int DeleteClientFromLoan(int idClient)
+        {
+            try
+            {
+                return _unitOfWork.IClientLoan.DeleteClientLoanRegister(idClient);
             }
             catch(Exception e)
             {
@@ -160,6 +179,31 @@ namespace ApiBusinessModel.Implementation.Client
                 sentinelReport.uploadDate = DateTime.Now;
                 sentinelReport.filePDF = response;
                 _unitOfWork.IHistoricalSentinelReport.Insert(sentinelReport);
+                return response;
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public int CheckClientByDocumentNumber(string documentNumber)
+        {
+            try
+            {
+                var response = 0;
+
+                var checkClient = _unitOfWork.IClient.CheckClientByDocumentNumber(documentNumber);
+
+                if (checkClient != null)
+                {
+                    response = 1;
+                }
+                else
+                {
+                    response = 2;
+                }
+              
                 return response;
             }
             catch(Exception e)

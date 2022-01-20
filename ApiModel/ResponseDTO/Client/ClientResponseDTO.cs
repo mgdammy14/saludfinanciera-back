@@ -15,6 +15,7 @@ namespace ApiModel.ResponseDTO.Client
         public string clientAddress { get; set; }
         public string clientPhoneNumber { get; set; }
         public DateTime clientDateOfBirth { get; set; }
+        public int age { get; set; }
         public int idFinancialState { get; set; }
         public int idClientState { get; set; }
 
