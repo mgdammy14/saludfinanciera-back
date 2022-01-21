@@ -79,16 +79,9 @@ namespace ApiBusinessModel.Implementation.Prestamos
                 response.amortization = amortizationResponse;
 
                 //Traemos a todos los clientes
-                var clientListCheck = _unitOfWork.IClient.GetClientsByIdLoan(idLoan);
+                response.clientList = _unitOfWork.IClient.GetClientsByIdLoan(idLoan);
 
-                if(clientListCheck.Count == 0)
-                {
-                    response.clientList = null;
-                }
-                else
-                {
-                    response.clientList = clientListCheck;
-                }
+                
                 
                 //Mostramos el cronograma de pagos
                 var loan = _unitOfWork.ILoan.GetById(idLoan);
