@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LoWim8MtzGsyiQdB1Y/JOBDXp+hfNWR5pCubVX/WBkYZJXvwGRJ3RxJWH1ZGr3r1/peiqD3n6QCR/Ot/0SYskg==",
+  "dgSpecHash": "jraSdC6SrkbUiBnZwo5j9SVn9TW1Ts+4sH58KuWfmAZPQYmz8pujp/DJ8MnCeEfZmlOLgcRXz+ucSE0o5KYhTQ==",
   "success": true,
-  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiDataAccess/ApiDataAccess.csproj",
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiDataAccess/ApiDataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512",

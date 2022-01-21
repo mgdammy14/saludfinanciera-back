@@ -86,7 +86,7 @@ namespace CRUD_Factura
             services.AddScoped<ILoanAmountLogic, LoanAmountLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
-                    Configuration.GetConnectionString("develop-azure")
+                    Configuration.GetConnectionString("production-azure")
                 ));
 
             services.AddAuthorization(auth => {

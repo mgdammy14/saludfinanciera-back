@@ -1524,11 +1524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiDataAccess/ApiDataAccess.csproj",
+      "projectUniqueName": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiDataAccess/ApiDataAccess.csproj",
       "projectName": "ApiDataAccess",
-      "projectPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiDataAccess/ApiDataAccess.csproj",
+      "projectPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiDataAccess/ApiDataAccess.csproj",
       "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
-      "outputPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiDataAccess/obj/",
+      "outputPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiDataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
@@ -1543,11 +1543,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/ApiRepositories.csproj": {
-              "projectPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/ApiRepositories.csproj"
+            "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiRepositories/ApiRepositories.csproj": {
+              "projectPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiRepositories/ApiRepositories.csproj"
             },
-            "/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/ApiUnitOfWork.csproj": {
-              "projectPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiUnitOfWork/ApiUnitOfWork.csproj"
+            "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiUnitOfWork/ApiUnitOfWork.csproj": {
+              "projectPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiUnitOfWork/ApiUnitOfWork.csproj"
             }
           }
         }

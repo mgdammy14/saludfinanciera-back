@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v2pneJXyRsWBYCY4TPW9PlzjyCCNTYIws+Y70iAZwlCP7Tpk4wNy0qnEDT0YmJurTXbX+C84QTi7orJ+JFTeBA==",
+  "dgSpecHash": "ARa38dzdKfeNSOCPnm1ECKeErna1vVcJbAVRyS5oD/TY2xuij3uQ45yrEgoeE9NiCOhsAr4lX0wmZPTfRAv1jw==",
   "success": true,
-  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiBusinessModel/ApiBusinessModel.csproj",
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiBusinessModel/ApiBusinessModel.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/azure.core/1.21.0/azure.core.1.21.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/azure.storage.blobs/12.11.0-beta.2/azure.storage.blobs.12.11.0-beta.2.nupkg.sha512",

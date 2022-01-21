@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sxYapdgooBdm2YWxxPo4Bab5XVKC6hjZlJcQN0ThBNPA5bZvFq83VuQEgo6bSzBTNG9Mb4DX7vE5+pgd49aj1g==",
+  "dgSpecHash": "epN+Z5oMh2DLjq3amEPeyX3nou9WjsrjfRWsSe8Al4R7y0bL4uCOr/6fMRX4Hgq4WeLMg1dE+Y2QReLQUPYSOg==",
   "success": true,
-  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiRepositories/ApiRepositories.csproj",
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiRepositories/ApiRepositories.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/dapper.contrib/2.0.78/dapper.contrib.2.0.78.nupkg.sha512",
