@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ygFKNWowoCxLTuHg01Gih2uJFwi3r71AtBfsiBoDVPFhBjilJ3y5D29RvAaoDwoYvBk4KguSvERw1EJTXxgddA==",
+  "dgSpecHash": "Dqv7eneaB1Lg27Q1y/5QhjSxsEgiegdKG6kHdUhqMGQMmnjkjqCiyfvUL/iiNsrj7wqRDPfJEYx/icMsKbtaFw==",
   "success": true,
-  "projectFilePath": "/Users/gonzalopingo/Desktop/saludFinanciera/CRUD-Factura/ApiCOre.csproj",
+  "projectFilePath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/CRUD-Factura/ApiCOre.csproj",
   "expectedPackageFiles": [
     "/Users/gonzalopingo/.nuget/packages/azure.core/1.21.0/azure.core.1.21.0.nupkg.sha512",
     "/Users/gonzalopingo/.nuget/packages/azure.storage.blobs/12.11.0-beta.2/azure.storage.blobs.12.11.0-beta.2.nupkg.sha512",

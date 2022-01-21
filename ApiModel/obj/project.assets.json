@@ -536,11 +536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/ApiModel.csproj",
+      "projectUniqueName": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiModel/ApiModel.csproj",
       "projectName": "ApiModel",
-      "projectPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/ApiModel.csproj",
+      "projectPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiModel/ApiModel.csproj",
       "packagesPath": "/Users/gonzalopingo/.nuget/packages/",
-      "outputPath": "/Users/gonzalopingo/Desktop/saludFinanciera/ApiModel/obj/",
+      "outputPath": "/Users/gonzalopingo/Desktop/saludfinanciera-back/ApiModel/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/gonzalopingo/.config/NuGet/NuGet.Config"
