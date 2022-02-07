@@ -11,5 +11,6 @@ namespace ApiBusinessModel.Interfaces.Pagos
     {
         public PaymentResponse Insert(PaymentRequestDTO dto);
         public List<PaymentResponse> GetPaymentsByLoan(int idLoan);
+        public PaymentResponse Update(PaymentRequestDTO dto);
     }
 }

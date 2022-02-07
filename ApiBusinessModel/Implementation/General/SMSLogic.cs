@@ -27,7 +27,7 @@ namespace ApiBusinessModel.Implementation.General
             {
                 var response = false;
 
-                var clientList = _unitOfWork.IClient.GetClientsByIdLoan(dto.idLoan);
+                var clientList = _unitOfWork.IPerson.GetClientsByIdLoan(dto.idLoan);
 
 
                 SMSRequestDTO messageDTO = new SMSRequestDTO();
@@ -39,7 +39,7 @@ namespace ApiBusinessModel.Implementation.General
                     case 1:
                         foreach(var item in clientList)
                         {
-                            messageDTO.to = "+51" + item.clientPhoneNumber;
+                            messageDTO.to = "+51" + item.phoneNumber;
                             try
                             {
                                 response = SendSMS(messageDTO);
@@ -54,7 +54,7 @@ namespace ApiBusinessModel.Implementation.General
                     case 2:
                         foreach (var item in clientList)
                         {
-                            messageDTO.to = "+51" + item.clientPhoneNumber;
+                            messageDTO.to = "+51" + item.phoneNumber;
                             try
                             {
                                 response = SendWhatsAppSMS(messageDTO);

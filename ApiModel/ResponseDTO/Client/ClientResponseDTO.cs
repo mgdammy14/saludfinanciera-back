@@ -13,6 +13,10 @@ namespace ApiModel.ResponseDTO.Client
         public string clientName { get; set; }
         public string clientLastname { get; set; }
         public string clientAddress { get; set; }
+        public string clientGender { get; set; }
+        public string clientCitizenship { get; set; }
+        public int idCivilState { get; set; }
+        public string clientEmail { get; set; }
         public string clientPhoneNumber { get; set; }
         public DateTime clientDateOfBirth { get; set; }
         public int age { get; set; }
@@ -27,6 +31,10 @@ namespace ApiModel.ResponseDTO.Client
             obj.clientName = dto.clientName;
             obj.clientLastname = dto.clientLastname;
             obj.clientAddress = dto.clientAddress;
+            obj.clientGender = dto.clientGender;
+            obj.clientCitizenship = dto.clientCitizenship;
+            obj.idCivilState = dto.idCivilState;
+            obj.clientEmail = dto.clientEmail;
             obj.clientPhoneNumber = dto.clientPhoneNumber;
             obj.clientDateOfBirth = dto.clientDateOfBirth;
             obj.idFinancialState = dto.idFinancialState;

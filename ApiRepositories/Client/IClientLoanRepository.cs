@@ -6,6 +6,6 @@ namespace ApiRepositories.Client
 {
     public interface IClientLoanRepository : IRepository<ClientLoan>
     {
-        public int DeleteClientLoanRegister(int idClient);
+        public int DeleteClientLoanRegister(int idClient, int idLoan);
     }
 }

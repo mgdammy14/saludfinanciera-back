@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using ApiDataAccess.General;
+using ApiModel.RequestDTO.Person;
 using ApiModel.ResponseDTO.Client;
+using ApiModel.ResponseDTO.Person;
 using ApiRepositories.Client;
 using Dapper;
 
@@ -15,61 +17,17 @@ namespace ApiDataAccess.Client
         {
         }
 
-        public int ChangeClientState(int idClient, int idClientState)
+        public List<ClientToInsert> GetClientToInsert()
         {
-            var parameters = new DynamicParameters();
-            parameters.Add("@idClient", idClient);
-            parameters.Add("@idClientState", idClientState);
-            string sql = @"UPDATE Client
-                            SET idClientState = @idClientState 
-                            WHERE idClient = @idClient";
-            using (var connection = new SqlConnection(_connectionString))
-            {
-                return connection.Execute(
-                    sql, parameters
-                );
-            }
-        }
-
-        public List<ApiModel.ClientModel.Client> GetClientsByIdLoan(int idLoan)
-        {
-            var parameters = new DynamicParameters();
-            parameters.Add("@idLoan", idLoan);
-            var sql = @"select C.* from Client C
-                        inner join ClientLoan CL ON C.idClient = CL.idClient
-                        where CL.idLoan = @idLoan";
+            var sql = @"select idClient, idDocumentType, documentNumber, clientName as name, 
+                        clientLastname as lastname, clientDateOfBirth as dateOfBirth, clientPhoneNumber as phoneNumber, 
+                        clientAddress as address, idFinancialState from Client";
 
             using (var connection = new SqlConnection(_connectionString))
             {
-                return (connection.Query<ApiModel.ClientModel.Client>(
-                     sql, parameters
-                )).ToList();
-            }
-        }
-
-        public List<ClientResponseDTO> GetClientList()
-        {
-            var sql = @"select * from Client";
-
-            using (var connection = new SqlConnection(_connectionString))
-            {
-                return (connection.Query<ClientResponseDTO>(
+                return (connection.Query<ClientToInsert>(
                      sql
                 )).ToList();
-            }
-        }
-
-        public ApiModel.ClientModel.Client CheckClientByDocumentNumber(string documentNumber)
-        {
-            var parameters = new DynamicParameters();
-            parameters.Add("@documentNumber", documentNumber);
-            var sql = @"select * from Client where documentNumber = @documentNumber";
-
-            using (var connection = new SqlConnection(_connectionString))
-            {
-                return (connection.Query<ApiModel.ClientModel.Client>(
-                     sql, parameters
-                )).FirstOrDefault();
             }
         }
     }

@@ -15,8 +15,9 @@ namespace ApiModel.RequestDTO.Pagos
         public string operationNumber { get; set; }
         public string depositor { get; set; }
         public int canal { get; set; }
-        public string payConstancy { get; set; }
+        public string? payConstancy { get; set; }
         public string paymentObservation { get; set; }
-        public IFormFile files { get; set; }
+        public IFormFile? files { get; set; }
+        
     }
 }

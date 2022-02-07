@@ -79,10 +79,23 @@ namespace ApiBusinessModel.Implementation.Prestamos
                 response.amortization = amortizationResponse;
 
                 //Traemos a todos los clientes
-                response.clientList = _unitOfWork.IClient.GetClientsByIdLoan(idLoan);
+                var clientListResponse = _unitOfWork.IPerson.GetClientsByIdLoan(idLoan);
 
-                
-                
+                foreach (var item in clientListResponse)
+                {
+
+                    int Years(DateTime start, DateTime end)
+                    {
+                        return (end.Year - start.Year - 1) +
+                            (((end.Month > start.Month) ||
+                            ((end.Month == start.Month) && (end.Day >= start.Day))) ? 1 : 0);
+                    }
+
+                    item.age = Years((DateTime)item.dateOfBirth, DateTime.Now);
+                }
+
+                response.clientList = clientListResponse;
+
                 //Mostramos el cronograma de pagos
                 var loan = _unitOfWork.ILoan.GetById(idLoan);
                 if (loan.startpaymentDate != null)

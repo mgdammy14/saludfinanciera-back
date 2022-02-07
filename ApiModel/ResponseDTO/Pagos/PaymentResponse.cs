@@ -14,6 +14,7 @@ namespace ApiModel.ResponseDTO.Pagos
         public int paymentState { get; set; }
         public string operationNumber { get; set; }
         public string depositor { get; set; }
+        public string depositorFullName { get; set; }
         public int canal { get; set; }
         public string payConstancy { get; set; }
         public string paymentObservation { get; set; }
@@ -25,7 +26,7 @@ namespace ApiModel.ResponseDTO.Pagos
             res.paymentDate = dto.paymentDate;
             res.grupalFee = dto.grupalFee;
             res.paymentState = dto.paymentState;
-            res.operationNumber = dto.operationNumber;
+            res.operationNumber = dto.operationNumber; 
             res.depositor = dto.depositor;
             res.canal = dto.canal;
             res.payConstancy = dto.payConstancy;
