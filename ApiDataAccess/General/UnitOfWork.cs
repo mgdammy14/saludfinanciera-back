@@ -2,6 +2,7 @@
 using ApiDataAccess.Mensajes;
 using ApiDataAccess.Pagos;
 using ApiDataAccess.Permission;
+using ApiDataAccess.Person;
 using ApiDataAccess.Prestamos;
 using ApiDataAccess.Rol;
 using ApiDataAccess.Url;
@@ -11,6 +12,7 @@ using ApiRepositories.General;
 using ApiRepositories.Mensajes;
 using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
+using ApiRepositories.Person;
 using ApiRepositories.Prestamos;
 using ApiRepositories.Rol;
 using ApiRepositories.UrlRepository;
@@ -40,6 +42,11 @@ namespace ApiDataAccess.General
         public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
         public IBankRepository IBank { get; set; }
         public ILoanAmountRepository ILoanAmount { get; set; }
+        public IPersonRepository IPerson { get; set; }
+        public IPersonExtraDataRepository IPersonExtraData { get; set; }
+        public ILaborDataRepository ILaborData { get; set; }
+        public ISpousePersonRepository ISpousePerson { get; set; }
+        public IPersonReferenceRepository IPersonReference { get; set; }
 
         public UnitOfWork(string connectionString)
         {
@@ -57,6 +64,11 @@ namespace ApiDataAccess.General
             IHistoricalSentinelReport = new HistoricalSentinelReportRepository(connectionString);
             IBank = new BankRepository(connectionString);
             ILoanAmount = new LoanAmountRepository(connectionString);
+            IPerson = new PersonRepository(connectionString);
+            IPersonExtraData = new PersonExtraDataRepository(connectionString);
+            ILaborData = new LaborDataRepository(connectionString);
+            ISpousePerson = new SpousePersonRepository(connectionString);
+            IPersonReference = new PersonReferenceRepository(connectionString);
         }
     }
 }

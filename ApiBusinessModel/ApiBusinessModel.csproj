@@ -29,6 +29,8 @@
     <None Remove="Microsoft.AspNetCore.Mvc" />
     <None Remove="Interfaces\Mensajes\" />
     <None Remove="Implementation\Mensajes\" />
+    <None Remove="Interfaces\Person\" />
+    <None Remove="Implementation\Person\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\Users\" />
@@ -49,6 +51,8 @@
     <Folder Include="Implementation\Pagos\" />
     <Folder Include="Interfaces\Mensajes\" />
     <Folder Include="Implementation\Mensajes\" />
+    <Folder Include="Interfaces\Person\" />
+    <Folder Include="Implementation\Person\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.11.0-beta.2" />

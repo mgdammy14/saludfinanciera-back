@@ -3,6 +3,7 @@ using ApiRepositories.General;
 using ApiRepositories.Mensajes;
 using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
+using ApiRepositories.Person;
 using ApiRepositories.Prestamos;
 using ApiRepositories.Rol;
 using ApiRepositories.UrlRepository;
@@ -31,5 +32,10 @@ namespace ApiUnitOfWork.General
         public IHistoricalSentinelReportRepository IHistoricalSentinelReport { get; set; }
         public IBankRepository IBank { get; set; }
         public ILoanAmountRepository ILoanAmount { get; set; }
+        public IPersonRepository IPerson { get; set; }
+        public IPersonExtraDataRepository IPersonExtraData { get; set; }
+        public ILaborDataRepository ILaborData { get; set; }
+        public ISpousePersonRepository ISpousePerson { get; set; }
+        public IPersonReferenceRepository IPersonReference { get; set; }
     }
 }

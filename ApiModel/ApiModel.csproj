@@ -32,6 +32,9 @@
     <None Remove="RequestDTO\Mensajes\" />
     <None Remove="ResponseDTO\Mensajes\" />
     <None Remove="General\" />
+    <None Remove="Person\" />
+    <None Remove="RequestDTO\Person\" />
+    <None Remove="ResponseDTO\Person\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
@@ -41,14 +44,14 @@
     <Folder Include="Rol\" />
     <Folder Include="RequestDTO\Users\" />
     <Folder Include="RequestDTO\Rol\" />
-    <Folder Include="UrlModel\" />
+    <Folder Include="Url\" />
     <Folder Include="RequestDTO\UrlRequest\" />
-    <Folder Include="PermissionModel\" />
+    <Folder Include="Permission\" />
     <Folder Include="RequestDTO\PermissionRequest\" />
     <Folder Include="ResponseDTO\General\" />
     <Folder Include="ResponseDTO\Rol\" />
     <Folder Include="RequestDTO\SMS\" />
-    <Folder Include="ClientModel\" />
+    <Folder Include="Client\" />
     <Folder Include="RequestDTO\Client\" />
     <Folder Include="ResponseDTO\Client\" />
     <Folder Include="Prestamos\" />
@@ -61,6 +64,9 @@
     <Folder Include="RequestDTO\Mensajes\" />
     <Folder Include="ResponseDTO\Mensajes\" />
     <Folder Include="General\" />
+    <Folder Include="Person\" />
+    <Folder Include="RequestDTO\Person\" />
+    <Folder Include="ResponseDTO\Person\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />

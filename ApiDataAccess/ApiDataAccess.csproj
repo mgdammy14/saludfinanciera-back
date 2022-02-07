@@ -23,6 +23,7 @@
     <None Remove="Prestamos\" />
     <None Remove="Pagos\" />
     <None Remove="Mensajes\" />
+    <None Remove="Person\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
@@ -33,5 +34,6 @@
     <Folder Include="Prestamos\" />
     <Folder Include="Pagos\" />
     <Folder Include="Mensajes\" />
+    <Folder Include="Person\" />
   </ItemGroup>
 </Project>

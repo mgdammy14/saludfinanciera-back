@@ -13,10 +13,11 @@ namespace ApiDataAccess.Client
         {
         }
 
-        public int DeleteClientLoanRegister(int idClient)
+        public int DeleteClientLoanRegister(int idClient, int idLoan)
         {
             var parameters = new DynamicParameters();
             parameters.Add("@idClient", idClient);
+            parameters.Add("@idLoan", idLoan);
             using (var connection = new SqlConnection(_connectionString))
             {
                 return connection.Execute(

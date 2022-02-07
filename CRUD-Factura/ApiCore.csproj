@@ -38,6 +38,7 @@
     <None Remove="Microsoft.Azure.Storage.Blob" />
     <None Remove="Controllers\Mensajes\" />
     <None Remove="Controllers\General\" />
+    <None Remove="Controllers\Person\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Users\" />
@@ -50,5 +51,6 @@
     <Folder Include="Controllers\Pagos\" />
     <Folder Include="Controllers\Mensajes\" />
     <Folder Include="Controllers\General\" />
+    <Folder Include="Controllers\Person\" />
   </ItemGroup>
 </Project>
