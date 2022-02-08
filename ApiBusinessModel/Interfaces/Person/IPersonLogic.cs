@@ -21,5 +21,6 @@ namespace ApiBusinessModel.Interfaces.Person
         public string UploadSentinelPdf(UploadPdfRequestDTO dto);
         public List<HistoricalSentinelReport> GetHistoricalSentinelReportByIdPerson(int idPerson);
         public int ChangePersonState(int idPerson);
+        public bool DeleteSentinelReport(int idHistoricalDeleted);
     }
 }

@@ -447,5 +447,19 @@ namespace ApiBusinessModel.Implementation.Person
                 throw e;
             }
         }
+
+        public bool DeleteSentinelReport(int idHistoricalDeleted)
+        {
+            try
+            {
+                HistoricalSentinelReport obj = new HistoricalSentinelReport();
+                obj.idHistorical = idHistoricalDeleted;
+                return _unitOfWork.IHistoricalSentinelReport.Delete(obj);
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }
