@@ -215,5 +215,23 @@ namespace CRUD_Factura.Controllers.Person
                 return BadRequest(response);
             }
         }
+
+        [HttpDelete]
+        [Route("deleteSentinelReport/{idReport:int}")]
+        [Authorize]
+        public IActionResult DeleteSentinelReport(int idReport)
+        {
+            _responseDTO = new ResponseDTO();
+            try
+            {
+                var response = _responseDTO.Success(_responseDTO, _logic.DeleteSentinelReport(idReport));
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var response = _responseDTO.Failed(_responseDTO, e);
+                return BadRequest(response);
+            }
+        }
     }
 }
