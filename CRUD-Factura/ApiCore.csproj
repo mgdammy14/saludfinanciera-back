@@ -32,7 +32,6 @@
     <None Remove="Controllers\Rol\" />
     <None Remove="Controllers\Url\" />
     <None Remove="Controllers\Permission\" />
-    <None Remove="Controllers\Client\" />
     <None Remove="Controllers\Prestamos\" />
     <None Remove="Controllers\Pagos\" />
     <None Remove="Microsoft.Azure.Storage.Blob" />
@@ -46,7 +45,6 @@
     <Folder Include="Controllers\Rol\" />
     <Folder Include="Controllers\Url\" />
     <Folder Include="Controllers\Permission\" />
-    <Folder Include="Controllers\Client\" />
     <Folder Include="Controllers\Prestamos\" />
     <Folder Include="Controllers\Pagos\" />
     <Folder Include="Controllers\Mensajes\" />

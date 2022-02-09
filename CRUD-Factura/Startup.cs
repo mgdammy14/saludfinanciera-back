@@ -1,5 +1,4 @@
 using ApiBusinessModel.Implementation;
-using ApiBusinessModel.Implementation.Client;
 using ApiBusinessModel.Implementation.General;
 using ApiBusinessModel.Implementation.Mensajes;
 using ApiBusinessModel.Implementation.Pagos;
@@ -8,7 +7,6 @@ using ApiBusinessModel.Implementation.Person;
 using ApiBusinessModel.Implementation.Prestamos;
 using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
-using ApiBusinessModel.Interfaces.Client;
 using ApiBusinessModel.Interfaces.General;
 using ApiBusinessModel.Interfaces.Mensajes;
 using ApiBusinessModel.Interfaces.Pagos;
@@ -72,7 +70,6 @@ namespace CRUD_Factura
             services.AddScoped<IUrlLogic, UrlLogic>();
             services.AddScoped<IPermissionLogic, PermissionLogic>();
             services.AddScoped<ISMSLogic, SMSLogic>();
-            services.AddScoped<IClientLogic, ClientLogic>();
             services.AddScoped<ILoanLogic, LoanLogic>();
             services.AddScoped<IPaymentScheduleLogic, PaymentScheduleLogic>();
             services.AddScoped<IPaymentLogic, PaymentLogic>();

@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using ApiDataAccess.General;
 using ApiModel.Prestamos;
+using ApiModel.ResponseDTO.Prestamos;
 using ApiRepositories.Prestamos;
 using Dapper;
 
@@ -26,6 +27,22 @@ namespace ApiDataAccess.Prestamos
             using (var connection = new SqlConnection(_connectionString))
             {
                 return (connection.Query<PaymentSchedule>(
+                     sql, parameters
+                )).ToList();
+            }
+        }
+
+        public List<PaymentScheduleResponse> GetIdLoanAmountByIdLoan(int idLoan)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@idLoan", idLoan);
+            var sql = @"select idLoanAmount from ClientLoan
+                        WHERE idLoan = @idLoan
+                        GROUP BY idLoanAmount";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return (connection.Query<PaymentScheduleResponse>(
                      sql, parameters
                 )).ToList();
             }

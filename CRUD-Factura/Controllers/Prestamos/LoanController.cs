@@ -72,7 +72,7 @@ namespace CRUD_Factura.Controllers.Prestamos
 
         [HttpGet]
         [Route("fullInformation/{idLoan:int}")]
-        //[Authorize]
+        [Authorize]
         public IActionResult GetFullLoanInfomation(int idLoan)
         {
             _responseDTO = new ResponseDTO();

@@ -92,8 +92,8 @@ namespace ApiBusinessModel.Implementation.General
                     case 1:
                         foreach (var item in dto.clientList)
                         {
-                            var client = _unitOfWork.IClient.GetById(item.idClient);
-                            messageDTO.to = "+51" + client.clientPhoneNumber;
+                            var client = _unitOfWork.IPerson.GetById(item.idClient);
+                            messageDTO.to = "+51" + client.phoneNumber;
                             try
                             {
                                 response = SendSMS(messageDTO);
@@ -108,8 +108,8 @@ namespace ApiBusinessModel.Implementation.General
                     case 2:
                         foreach (var item in dto.clientList)
                         {
-                            var client = _unitOfWork.IClient.GetById(item.idClient);
-                            messageDTO.to = "+51" + client.clientPhoneNumber;
+                            var client = _unitOfWork.IPerson.GetById(item.idClient);
+                            messageDTO.to = "+51" + client.phoneNumber;
                             try
                             {
                                 response = SendWhatsAppSMS(messageDTO);

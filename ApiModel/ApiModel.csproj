@@ -51,7 +51,6 @@
     <Folder Include="ResponseDTO\General\" />
     <Folder Include="ResponseDTO\Rol\" />
     <Folder Include="RequestDTO\SMS\" />
-    <Folder Include="Client\" />
     <Folder Include="RequestDTO\Client\" />
     <Folder Include="ResponseDTO\Client\" />
     <Folder Include="Prestamos\" />

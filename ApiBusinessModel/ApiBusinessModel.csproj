@@ -19,8 +19,6 @@
     <None Remove="Implementation\Url\" />
     <None Remove="Interfaces\Permission\" />
     <None Remove="Implementation\Permission\" />
-    <None Remove="Interfaces\Client\" />
-    <None Remove="Implementation\Client\" />
     <None Remove="Interfaces\Prestamos\" />
     <None Remove="Implementation\Prestamos\" />
     <None Remove="Interfaces\Pagos\" />
@@ -43,8 +41,6 @@
     <Folder Include="Implementation\Url\" />
     <Folder Include="Interfaces\Permission\" />
     <Folder Include="Implementation\Permission\" />
-    <Folder Include="Interfaces\Client\" />
-    <Folder Include="Implementation\Client\" />
     <Folder Include="Interfaces\Prestamos\" />
     <Folder Include="Implementation\Prestamos\" />
     <Folder Include="Interfaces\Pagos\" />
