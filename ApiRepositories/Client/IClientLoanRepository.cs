@@ -1,5 +1,5 @@
 ﻿using System;
-using ApiModel.ClientModel;
+using ApiModel.Person;
 using ApiRepositories.General;
 
 namespace ApiRepositories.Client

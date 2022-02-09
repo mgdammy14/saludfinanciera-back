@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 using ApiDataAccess.General;
-using ApiModel.ClientModel;
+using ApiModel.Person;
 using ApiRepositories.Client;
 using Dapper;
 

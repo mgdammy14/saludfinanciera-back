@@ -98,16 +98,22 @@ namespace ApiBusinessModel.Implementation.Prestamos
 
                 //Mostramos el cronograma de pagos
                 var loan = _unitOfWork.ILoan.GetById(idLoan);
+                List<PaymentScheduleResponse> paymentScheduleResponse = new List<PaymentScheduleResponse>();
                 if (loan.startpaymentDate != null)
                 {
-                    CreateScheduleRequestDTO createScheduleRequest = new CreateScheduleRequestDTO();
-                    createScheduleRequest.idLoanAmount = 1;
-                    createScheduleRequest.startPaymentDate = (DateTime)loan.startpaymentDate;
-                    response.paymentSchedule = _paymentScheduleLogic.CreatePaymentSchedule(createScheduleRequest);
+                    paymentScheduleResponse = _unitOfWork.IPaymentSchedule.GetIdLoanAmountByIdLoan(idLoan);
+                    foreach(var item in paymentScheduleResponse)
+                    {
+                        CreateScheduleRequestDTO createScheduleRequest = new CreateScheduleRequestDTO();
+                        createScheduleRequest.idLoanAmount = item.idLoanAmount;
+                        createScheduleRequest.startPaymentDate = (DateTime)loan.startpaymentDate;
+                        item.paymentSchedule = _paymentScheduleLogic.CreatePaymentSchedule(createScheduleRequest);
+                    }
+                    response.paymentScheduleList = paymentScheduleResponse;
                 }
                 else
                 {
-                    response.paymentSchedule = null;
+                    response.paymentScheduleList = null;
                 }
 
                 return response;

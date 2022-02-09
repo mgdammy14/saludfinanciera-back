@@ -32,7 +32,6 @@ namespace ApiDataAccess.General
         public IRolRepository IRol { get; set; }
         public IUrlRepository IUrl { get; set; }
         public IPermissionRepository IPermission { get; set; }
-        public IClientRepository IClient { get; set; }
         public ILoanRepository ILoan { get; set; }
         public IAmortizationRepository IAmortization { get; set; }
         public IPaymentScheduleRepository IPaymentSchedule { get; set; }
@@ -54,7 +53,6 @@ namespace ApiDataAccess.General
             IRol = new RolRepository(connectionString);
             IUrl = new UrlRepository(connectionString);
             IPermission = new PermissionRepository(connectionString);
-            IClient = new ClientRepository(connectionString);
             ILoan = new LoanRepository(connectionString);
             IAmortization = new AmortizationRepository(connectionString);
             IPaymentSchedule = new PaymentScheduleRepository(connectionString);

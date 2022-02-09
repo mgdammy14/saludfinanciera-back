@@ -2,10 +2,11 @@
 using ApiModel.RequestDTO.Client;
 using Dapper.Contrib.Extensions;
 
-namespace ApiModel.ClientModel
+namespace ApiModel.Person
 {
     public class ClientLoan
     {
+        [Key]
         public string clientLoan { get; set; }
         public int idClient { get; set; }
         public int idLoan { get; set; }

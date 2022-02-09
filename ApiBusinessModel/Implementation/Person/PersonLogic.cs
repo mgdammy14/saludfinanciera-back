@@ -4,7 +4,6 @@ using System.Linq;
 using System.Transactions;
 using ApiBusinessModel.Interfaces.General;
 using ApiBusinessModel.Interfaces.Person;
-using ApiModel.ClientModel;
 using ApiModel.General;
 using ApiModel.Person;
 using ApiModel.RequestDTO.Client;
