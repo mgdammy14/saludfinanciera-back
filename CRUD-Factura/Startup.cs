@@ -80,7 +80,7 @@ namespace CRUD_Factura
             services.AddScoped<IPersonLogic, PersonLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
-                    Configuration.GetConnectionString("production-azure")
+                    Configuration.GetConnectionString("develop-azure")
                 ));
 
             services.AddAuthorization(auth => {
