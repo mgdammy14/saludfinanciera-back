@@ -7,7 +7,7 @@ namespace ApiModel.Person
     public class ClientLoan
     {
         [Key]
-        public string clientLoan { get; set; }
+        public string? clientLoan { get; set; }
         public int idClient { get; set; }
         public int idLoan { get; set; }
         public int idLoanAmount { get; set; }
@@ -17,6 +17,7 @@ namespace ApiModel.Person
             obj.idClient = dto.idClient;
             obj.idLoan = dto.idLoan;
             obj.idLoanAmount = dto.idLoanAmount;
+
             return obj;
         }
     }

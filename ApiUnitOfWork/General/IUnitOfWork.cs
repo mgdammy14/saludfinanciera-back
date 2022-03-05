@@ -1,5 +1,6 @@
 ﻿using ApiRepositories.Client;
 using ApiRepositories.General;
+using ApiRepositories.Inversiones;
 using ApiRepositories.Mensajes;
 using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
@@ -36,5 +37,6 @@ namespace ApiUnitOfWork.General
         public ILaborDataRepository ILaborData { get; set; }
         public ISpousePersonRepository ISpousePerson { get; set; }
         public IPersonReferenceRepository IPersonReference { get; set; }
+        public IInvestmentRepository IInvestment { get; set; }
     }
 }

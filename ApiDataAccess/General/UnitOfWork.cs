@@ -1,4 +1,5 @@
 ﻿using ApiDataAccess.Client;
+using ApiDataAccess.Inversiones;
 using ApiDataAccess.Mensajes;
 using ApiDataAccess.Pagos;
 using ApiDataAccess.Permission;
@@ -9,6 +10,7 @@ using ApiDataAccess.Url;
 using ApiDataAccess.Users;
 using ApiRepositories.Client;
 using ApiRepositories.General;
+using ApiRepositories.Inversiones;
 using ApiRepositories.Mensajes;
 using ApiRepositories.Pagos;
 using ApiRepositories.PermissionRepository;
@@ -46,6 +48,7 @@ namespace ApiDataAccess.General
         public ILaborDataRepository ILaborData { get; set; }
         public ISpousePersonRepository ISpousePerson { get; set; }
         public IPersonReferenceRepository IPersonReference { get; set; }
+        public IInvestmentRepository IInvestment { get; set; }
 
         public UnitOfWork(string connectionString)
         {
@@ -67,6 +70,7 @@ namespace ApiDataAccess.General
             ILaborData = new LaborDataRepository(connectionString);
             ISpousePerson = new SpousePersonRepository(connectionString);
             IPersonReference = new PersonReferenceRepository(connectionString);
+            IInvestment = new InvestmentRepository(connectionString);
         }
     }
 }

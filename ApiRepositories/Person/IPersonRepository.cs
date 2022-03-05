@@ -13,5 +13,6 @@ namespace ApiRepositories.Person
         public PersonResponse CheckPersonByDocumentNumber(string documentNumber);
         public Reference GetReference(int idPerson);
         public List<PersonResponse> GetClientsByIdLoan(int idLoan);
+        public List<PersonResponse> GetClientInactiveList();
     }
 }

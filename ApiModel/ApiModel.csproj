@@ -35,6 +35,7 @@
     <None Remove="Person\" />
     <None Remove="RequestDTO\Person\" />
     <None Remove="ResponseDTO\Person\" />
+    <None Remove="Inversiones\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RequestDTO\" />
@@ -66,6 +67,7 @@
     <Folder Include="Person\" />
     <Folder Include="RequestDTO\Person\" />
     <Folder Include="ResponseDTO\Person\" />
+    <Folder Include="Inversiones\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />

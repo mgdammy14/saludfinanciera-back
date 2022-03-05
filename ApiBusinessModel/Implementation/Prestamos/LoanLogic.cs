@@ -98,7 +98,9 @@ namespace ApiBusinessModel.Implementation.Prestamos
 
                 //Mostramos el cronograma de pagos
                 var loan = _unitOfWork.ILoan.GetById(idLoan);
+
                 List<PaymentScheduleResponse> paymentScheduleResponse = new List<PaymentScheduleResponse>();
+
                 if (loan.startpaymentDate != null)
                 {
                     paymentScheduleResponse = _unitOfWork.IPaymentSchedule.GetIdLoanAmountByIdLoan(idLoan);
@@ -115,6 +117,8 @@ namespace ApiBusinessModel.Implementation.Prestamos
                 {
                     response.paymentScheduleList = null;
                 }
+
+                
 
                 return response;
             }

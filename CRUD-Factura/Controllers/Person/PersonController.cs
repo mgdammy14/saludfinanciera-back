@@ -74,7 +74,7 @@ namespace CRUD_Factura.Controllers.Person
 
         [HttpPost]
         [Route("addToLoanList")]
-        [Authorize]
+        //[Authorize]
         public IActionResult AddToLoan([FromBody] List<ClientLoanRequestDTO> dto)
         {
             _responseDTO = new ResponseDTO();
