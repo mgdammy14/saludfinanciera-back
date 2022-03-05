@@ -322,7 +322,11 @@ namespace ApiBusinessModel.Implementation.Person
             {
                 ClientLoan obj = new ClientLoan();
                 obj.clientLoan = dto.idClient.ToString() + dto.idLoan.ToString();
-                _unitOfWork.IClientLoan.Insert(obj.Mapper(obj, dto));
+                obj.Mapper(obj, dto);
+
+                string clientLoan = obj.clientLoan;
+
+                _unitOfWork.IClientLoan.Insert(obj);
                 return 1;
             }
             catch (Exception e)

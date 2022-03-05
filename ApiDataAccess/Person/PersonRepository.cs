@@ -91,5 +91,18 @@ namespace ApiDataAccess.Person
                 )).ToList();
             }
         }
+
+        public List<PersonResponse> GetClientInactiveList()
+        {
+            var sql = @"select * from Person
+                        where idPersonType = 1 and idPersonState = 2";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return (connection.Query<PersonResponse>(
+                     sql
+                )).ToList();
+            }
+        }
     }
 }

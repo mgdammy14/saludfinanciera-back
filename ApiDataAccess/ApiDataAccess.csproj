@@ -24,6 +24,7 @@
     <None Remove="Pagos\" />
     <None Remove="Mensajes\" />
     <None Remove="Person\" />
+    <None Remove="Inversiones\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Users\" />
@@ -35,5 +36,6 @@
     <Folder Include="Pagos\" />
     <Folder Include="Mensajes\" />
     <Folder Include="Person\" />
+    <Folder Include="Inversiones\" />
   </ItemGroup>
 </Project>

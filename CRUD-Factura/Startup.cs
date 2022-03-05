@@ -1,5 +1,6 @@
 using ApiBusinessModel.Implementation;
 using ApiBusinessModel.Implementation.General;
+using ApiBusinessModel.Implementation.Inversiones;
 using ApiBusinessModel.Implementation.Mensajes;
 using ApiBusinessModel.Implementation.Pagos;
 using ApiBusinessModel.Implementation.Permission;
@@ -8,6 +9,7 @@ using ApiBusinessModel.Implementation.Prestamos;
 using ApiBusinessModel.Implementation.Rol;
 using ApiBusinessModel.Implementation.Users;
 using ApiBusinessModel.Interfaces.General;
+using ApiBusinessModel.Interfaces.Inversiones;
 using ApiBusinessModel.Interfaces.Mensajes;
 using ApiBusinessModel.Interfaces.Pagos;
 using ApiBusinessModel.Interfaces.Permission;
@@ -78,6 +80,8 @@ namespace CRUD_Factura
             services.AddScoped<IBankLogic, BankLogic>();
             services.AddScoped<ILoanAmountLogic, LoanAmountLogic>();
             services.AddScoped<IPersonLogic, PersonLogic>();
+            services.AddScoped<IInvestmentLogic, InvestmentLogic>();
+            services.AddScoped<IDashboardLogic, DashboardLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
                     Configuration.GetConnectionString("production-azure")

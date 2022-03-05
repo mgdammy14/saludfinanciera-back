@@ -38,6 +38,7 @@
     <None Remove="Controllers\Mensajes\" />
     <None Remove="Controllers\General\" />
     <None Remove="Controllers\Person\" />
+    <None Remove="Controllers\Inversiones\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Users\" />
@@ -50,5 +51,6 @@
     <Folder Include="Controllers\Mensajes\" />
     <Folder Include="Controllers\General\" />
     <Folder Include="Controllers\Person\" />
+    <Folder Include="Controllers\Inversiones\" />
   </ItemGroup>
 </Project>
