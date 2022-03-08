@@ -104,5 +104,23 @@ namespace ApiDataAccess.Person
                 )).ToList();
             }
         }
+
+        public List<PersonResponse> GetClientListByMonthAndYear(int month, int year)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@month", month);
+            parameters.Add("@year", year);
+            var sql = @"select * from Person
+                        where MONTH(registerDate) = @month 
+                        and YEAR(registerDate) = @year
+                        and idPersonType = 1";
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                return (connection.Query<PersonResponse>(
+                     sql, parameters
+                )).ToList();
+            }
+        }
     }
 }

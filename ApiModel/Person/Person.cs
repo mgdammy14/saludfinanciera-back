@@ -23,6 +23,7 @@ namespace ApiModel.Person
         public string? referenceRelation { get; set; }
         public int? idFinancialState { get; set; }
         public int idPersonState { get; set; }
+        public DateTime? registerDate { get; set; }
 
         public Person Mapper(Person obj, PersonRequestDTO dto)
         {
@@ -54,7 +55,6 @@ namespace ApiModel.Person
             obj.citizenship = dto.citizenship;
             obj.address = dto.address;
             obj.phoneNumber = dto.phoneNumber;
-
             return obj;
         }
 
