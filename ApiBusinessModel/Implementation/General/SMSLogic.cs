@@ -14,7 +14,7 @@ namespace ApiBusinessModel.Implementation.General
         private readonly IUnitOfWork _unitOfWork;
 
         private string accountSid = "AC234f246e4d3d74abd477951243592d8b";
-        private string authToken = "50ad8fe0c393683eeb613ef4be867bbc";
+        private string authToken = "4bfa3ee749859bafcdcc65ea9ef0e704";
 
         public SMSLogic(IUnitOfWork unitOfWork)
         {

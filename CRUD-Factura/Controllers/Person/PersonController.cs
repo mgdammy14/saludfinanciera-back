@@ -39,7 +39,7 @@ namespace CRUD_Factura.Controllers.Person
         }
 
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public IActionResult Insert([FromBody] PersonFullRequestDTO dto)
         {
             _responseDTO = new ResponseDTO();

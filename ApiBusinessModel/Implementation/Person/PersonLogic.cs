@@ -34,6 +34,7 @@ namespace ApiBusinessModel.Implementation.Person
                     ApiModel.Person.Person objPerson = new ApiModel.Person.Person();
                     objPerson.idPersonType = 1;
                     objPerson.idPersonState = 1;
+                    objPerson.registerDate = DateTime.Today;
 
                     int idPersonCreated = _unitOfWork.IPerson.Insert(objPerson.Mapper(objPerson, dto.client));
                     resultado = idPersonCreated;

@@ -91,7 +91,10 @@ namespace ApiBusinessModel.Implementation.Prestamos
                             ((end.Month == start.Month) && (end.Day >= start.Day))) ? 1 : 0);
                     }
 
-                    item.age = Years((DateTime)item.dateOfBirth, DateTime.Now);
+                    if (item.dateOfBirth != null)
+                    {
+                        item.age = Years((DateTime)item.dateOfBirth, DateTime.Now);
+                    }
                 }
 
                 response.clientList = clientListResponse;

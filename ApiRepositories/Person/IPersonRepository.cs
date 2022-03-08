@@ -14,5 +14,6 @@ namespace ApiRepositories.Person
         public Reference GetReference(int idPerson);
         public List<PersonResponse> GetClientsByIdLoan(int idLoan);
         public List<PersonResponse> GetClientInactiveList();
+        public List<PersonResponse> GetClientListByMonthAndYear(int month, int year);
     }
 }
