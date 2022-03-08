@@ -84,7 +84,7 @@ namespace CRUD_Factura
             services.AddScoped<IDashboardLogic, DashboardLogic>();
 
             services.AddSingleton<IUnitOfWork>(option => new UnitOfWork(
-                    Configuration.GetConnectionString("production-azure")
+                    Configuration.GetConnectionString("develop-azure")
                 ));
 
             services.AddAuthorization(auth => {
